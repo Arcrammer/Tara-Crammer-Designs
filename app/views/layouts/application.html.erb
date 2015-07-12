@@ -15,7 +15,10 @@
       <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
       <%= stylesheet_link_tag "hover-min", media: "all", "data-turbolinks-track" => true %>
     <!-- Scripts -->
+      <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", "data-turbolinks-track" => true %>
       <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <!-- View Based Stuff -->
+      <%= yield :head %>
   </head>
   <body>
     <%= yield %>

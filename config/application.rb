@@ -23,6 +23,7 @@ module RubyGettingStarted
     # Add the /app/assets/fonts directory to the asset pipeline
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.assets.precompile += %w( .svg .eot .woff .ttf )
-    config.assets.precompile += %w( hover-min.css )
+    config.assets.precompile << '*.js'
+    config.assets.precompile << '*.css'
   end
 end
