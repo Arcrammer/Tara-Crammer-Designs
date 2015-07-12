@@ -80,6 +80,7 @@ button.btn:active {
   top: 6.5%;
   right: 3.5%;
   width: 5%;
+  z-index: 1;
 }
 
 #pancakes span {
