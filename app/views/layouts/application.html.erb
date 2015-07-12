@@ -10,6 +10,12 @@
       <meta name="author" content="Alexander Rhett Crammer">
       <meta name="generator" content="Coda 2, Ruby on Rails, Heroku, Puma, Ubuntu">
       <meta name="keywords" content="Weddings, Events, Interiors, Design">
+      <%= csrf_meta_tags %>
+    <!-- Links -->
+      <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+      <%= stylesheet_link_tag "hover-min", media: "all", "data-turbolinks-track" => true %>
+    <!-- Scripts -->
+      <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   </head>
   <body>
     <%= yield %>

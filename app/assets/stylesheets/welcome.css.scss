@@ -1,3 +1,146 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Structure */
+.container {
+  padding-top: 15%;
+  text-align: center;
+}
+
+/* Content */
+h4 {
+  color: #4c4c4c;
+}
+
+p {
+  color: #595959;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.35em;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 225%;
+  margin: 10% auto;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+/* Trons */
+#greeting-tron {
+  background: image-url("SplashGreetingBackground.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+#greeting-tron h4 {
+  font-family: "Jaapokki";
+  font-size: 7em;
+  text-transform: uppercase;
+}
+
+#greeting-tron h4 span {
+  color: #41cfd9;
+}
+
+#interior-tron {
+  background: image-url("SplashInteriorBackground.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+#interior-tron h4 {
+  font-family: "Luna";
+  font-size: 3.25em;
+  text-shadow: 3px 3px 0 white;
+}
+
+#event-tron {
+  background: image-url("SplashEventBackground.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+#event-tron h4 {
+  font-family: "Darleston";
+  font-size: 5em;
+  text-shadow: 3px 3px 0 white;
+}
+
+#question-tron {
+  background: image-url("SplashQuestionBackground.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+#question-tron .container {
+  padding: 10%;
+}
+
+#question-tron h4 {
+  font-family: "Jaapokki";
+  font-size: 5.5em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 white;
+}
+
+/* Buttons */
+button.teal {
+ border-color: #41cfd9;
+}
+
+button.teal:hover {
+  background-color: #5BDEE7;
+  border-color: #41cfd9;
+}
+
+button.teal:active {
+  background-color: #21878E;
+  border-color: #21878E;
+}
+
+/* Footer */
+footer {
+  /* Begin Gradient */
+  background: rgb(255,45,85); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(255,45,85) 0%, rgb(255,59,95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,45,85)), color-stop(100%,rgb(255,59,95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d55', endColorstr='#ff3b5f',GradientType=0 ); /* IE6-9 */
+  /* End Gradient */
+  padding: 2.5% 0;
+  text-align: center;
+}
+
+footer img {
+  width: 6.5%;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Jaapokki";
+  src: font-url('Jaapokki-Regular.eot');
+  src: font-url('Jaapokki-Regular.eot') format('embedded-opentype'),
+       font-url('Jaapokki-Regular.woff2') format('woff2'),
+       font-url('Jaapokki-Regular.woff') format('woff'),
+       font-url('Jaapokki-Regular.ttf') format('truetype'),
+       font-url('Jaapokki-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: "Luna";
+  src: font-url('Luna.eot');
+  src: font-url('Luna.eot') format('embedded-opentype'),
+       font-url('Luna.woff2') format('woff2'),
+       font-url('Luna.woff') format('woff'),
+       font-url('Luna.ttf') format('truetype'),
+       font-url('Luna.svg') format('svg');
+}
+
+@font-face {
+  font-family: "Darleston";
+  src: font-url('Darleston.eot');
+  src: font-url('Darleston.eot') format('embedded-opentype'),
+       font-url('Darleston.woff2') format('woff2'),
+       font-url('Darleston.woff') format('woff'),
+       font-url('Darleston.ttf') format('truetype'),
+       font-url('Darleston.svg') format('svg');
+}
