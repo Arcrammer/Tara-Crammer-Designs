@@ -45,6 +45,7 @@ section.post:last-of-type {
 
 .post .right {
   float: right;
+  text-align: center;
   width: 46.5%;
 }
 
@@ -52,9 +53,18 @@ section.post:last-of-type {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 1.75em;
   font-weight: 500;
-  margin: 5% auto;
+  margin-top: -5%;
+  margin-left: 25%;
+  margin-bottom: 2.25%;
   letter-spacing: 0.25px;
+  line-height: 125%;
   text-align: right;
+  width: 75%;
+}
+
+.post:nth-of-type(2n+0) header {
+  margin-left: 0;
+  margin-right: 25%;
 }
 
 .post:nth-of-type(1n+0) header, .post:nth-of-type(1n+0) a {
@@ -87,6 +97,7 @@ section.post:last-of-type {
   display: block;
   float: right;
   font-family: "Arial", sans-serif;
+  font-size: 0.9em;
   font-weight: 500;
   letter-spacing: 0.75px;
   margin: 5% auto;
@@ -99,6 +110,11 @@ section.post:last-of-type {
 .post a span {
   font-family: "Georgia", serif;
   vertical-align: 10%;
+}
+
+.post img {
+  border: 5px solid #fff;
+  width: 75%;
 }
 
   /* Opposite Orientation */
@@ -117,13 +133,9 @@ section.post:last-of-type {
   
   .post:nth-of-type(2n+0) .right {
     float: left;
+    text-align: center;
   }
   
-  .post:nth-of-type(2n+0) .right * {
-    float: right;
-    text-align: right;
-  }
-
 /* Footer */
 footer img {
   margin-top: 6.5%;

@@ -1,0 +1,53 @@
+// Place all the styles related to the problems controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Structure */
+body {
+  background-image: image-url("ProblemPageBackground.jpg");
+}
+
+.container {
+  text-align: center;
+}
+
+/* Content */
+header {
+  color: #262626;
+  font-family: "Jaapokki", sans-serif;
+  font-size: 10em;
+  margin-top: -6.5%;
+  margin-bottom: -5%;
+}
+
+p.comment {
+  color: #505050;
+  font-family: "Againts", sans-serif;
+  font-size: 3em;
+  line-height: 175%;
+  letter-spacing: 7px;
+}
+
+a {
+  color: #ff2d55;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Againts";
+  src: font-url('Againts.eot');
+  src: font-url('Againts.eot') format('embedded-opentype'),
+       font-url('Againts.woff2') format('woff2'),
+       font-url('Againts.woff') format('woff'),
+       font-url('Againts.ttf') format('truetype'),
+       font-url('Againts.svg') format('svg');
+}

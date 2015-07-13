@@ -1,86 +1,38 @@
 <%= render "partials/navigation_bar" %>
 <button id="pancakes"><span></span><span></span><span></span></button>
 <h1>My <span>W</span>ork</h1>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
-<section class="post">
-  <div class="left">
-    <header>Project Title</header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam arcu, bibendum ac euismod sit amet.</p>
-    <a href="">Details <span>&raquo;</span></a>
-  </div> <!-- .left -->
-  <div class="right">
-    <%= image_tag "ImagePlaceholder.jpg", :alt => "ImagePlaceholder.jpg" %>
-  </div> <!-- .right -->
-</section>
+<% @latest_posts.each do |post| %>
+  <section class="post">
+    <div class="left">
+      <header><%= post.title %></header>
+      <%= render "full_posts/#{post.file_name}" %>
+      <a href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
+    </div> <!-- .left -->
+    <div class="right">
+      <%= image_tag "PostHeaderImages/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
+    </div> <!-- .right -->
+  </section>
+<% end %>
 <footer>
   <div class="social-links">
     <ul>
       <li>
-        <a href="/">
+        <a href="http://www.facebook.com/">
           <%= image_tag "SocialMediaIcons/Facebook.png", :alt => "Facebook.png" %>
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="http://www.twitter.com/">
           <%= image_tag "SocialMediaIcons/Twitter.png", :alt => "Twitter.png" %>
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="http://www.pinterest.com/">
           <%= image_tag "SocialMediaIcons/Pinterest.png", :alt => "Pinterest.png" %>
         </a>
       </li>
       <li>
-        <a href="/">
+        <a href="http://www.linkedin.com/">
           <%= image_tag "SocialMediaIcons/LinkedIn.png", :alt => "LinkedIn.png" %>
         </a>
       </li>

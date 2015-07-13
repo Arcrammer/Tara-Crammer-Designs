@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-
-  get 'manage/index'
-
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -10,7 +8,16 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   get 'Portfolio' => 'my_work#index'
-
+  get 'Posts/:id' => 'posts#with_id'
+  get '404' => 'problems#_404'
+  get '422' => 'problems#_422'
+  get '500' => 'problems#_500'
+  
+  # Problem pages
+  match '/404', to: 'problems#_404', via: :all
+  match '/422', to: 'problems#_422', via: :all
+  match '/500', to: 'problems#_500', via: :all
+  
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
