@@ -13,11 +13,21 @@
  *= require_self
  */
 
+/*  application.css
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+
 /* Master Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain) */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Content */
+h4 {
+  color: #4c4c4c;
+}
 
 /* Structure */
 section {
@@ -71,28 +81,4 @@ button.btn:active {
   background-color: #B02E48;
   border-color: #B02E48;
   color: white; /* Prevent the text from going gray if active and the cursor doesn't hover */
-}
-
-/* Pancake Button */
-#pancakes {
-  position: absolute;
-  top: 6.5%;
-  right: 3.5%;
-  width: 5%;
-  z-index: 1;
-}
-
-#pancakes span {
-  background-color: #4d4d4d;
-  display: block;
-  height: 5px;
-  margin: 26.5% 0;
-}
-
-#pancakes:hover span {
-  background-color: #797979;
-}
-
-#pancakes:active span {
-  background-color: #151515;
 }
