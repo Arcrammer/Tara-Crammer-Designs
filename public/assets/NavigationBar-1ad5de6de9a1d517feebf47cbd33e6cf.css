@@ -1,0 +1,68 @@
+/*  NavigationBar.css
+    Sunday, July 12, 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+
+/* Navigation List */
+
+nav {
+  background-color: rgba(255,255,255,0.975);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 5%;
+  text-align: center;
+  z-index: 1; /* Rise over the random buttons throughout the page */
+}
+
+nav li {
+  float: left;
+  margin: 5%;
+  width: 35%;
+}
+
+nav li:nth-child(2n-1) {
+  margin-left: 10%; /* Center the navigation list */
+}
+
+nav li a {
+  color: gray;
+  display: block;
+  font-family: "Jaapokki";
+  font-size: 3em;
+  margin: 2.5%;
+  padding: 3.5%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li {
+  background: no-repeat scroll center center;
+  background-size: contain;
+}
+
+nav li:nth-child(1):hover {
+  background-image: url("NavigationLinkBackgrounds/Orange.png");
+}
+
+nav li:nth-child(2):hover {
+  background-image: url("NavigationLinkBackgrounds/Green.png");
+}
+
+nav li:nth-child(3):hover {
+  background-image: url("NavigationLinkBackgrounds/Purple.png");
+}
+
+nav li:nth-child(4):hover {
+  background-image: url("NavigationLinkBackgrounds/Pink.png");
+}
+
+nav li:nth-child(5):hover {
+  background-image: url("NavigationLinkBackgrounds/Blue.png");
+}
+
+nav li:nth-child(6):hover {
+  background-image: url("NavigationLinkBackgrounds/Teal.png");
+}

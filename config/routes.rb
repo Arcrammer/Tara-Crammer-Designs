@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # Example of regular route:
   get 'Portfolio' => 'my_work#index'
   get 'Posts/:id' => 'posts#with_id'
+  get 'Manage' => 'manage#index'
   get '404' => 'problems#_404'
   get '422' => 'problems#_422'
   get '500' => 'problems#_500'

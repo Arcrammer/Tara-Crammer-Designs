@@ -1,0 +1,51 @@
+/* Structure */
+/* line 7, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+body {
+  background-image: url(/assets/ProblemPageBackground.jpg);
+}
+
+/* line 11, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+.container {
+  text-align: center;
+}
+
+/* Content */
+/* line 16, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+header {
+  color: #262626;
+  font-family: "Jaapokki", sans-serif;
+  font-size: 10em;
+  margin-top: -6.5%;
+  margin-bottom: -5%;
+}
+
+/* line 24, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+p.comment {
+  color: #505050;
+  font-family: "Againts", sans-serif;
+  font-size: 3em;
+  line-height: 175%;
+  letter-spacing: 7px;
+}
+
+/* line 32, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+a {
+  color: #ff2d55;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 41, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+a:active {
+  text-decoration: underline;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Againts";
+  src: url(/assets/Againts.eot);
+  src: url(/assets/Againts.eot) format("embedded-opentype"), url(/assets/Againts.woff2) format("woff2"), url(/assets/Againts.woff) format("woff"), url(/assets/Againts.ttf) format("truetype"), url(/assets/Againts.svg) format("svg");
+}
