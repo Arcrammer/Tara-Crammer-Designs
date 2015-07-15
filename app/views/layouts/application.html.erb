@@ -13,10 +13,10 @@
       <%= csrf_meta_tags %>
     <!-- Links -->
       <%= stylesheet_link_tag "hover-min", media: "all", "data-turbolinks-track" => true %>
-      <%= stylesheet_link_tag "application", params[:controller] %>
+      <%= stylesheet_link_tag "application", params[:controller], "data-turbolinks-track" => true %>
     <!-- Scripts -->
       <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js", "data-turbolinks-track" => true %>
-      <%= javascript_include_tag "application", params[:controller] %>
+      <%= javascript_include_tag "application", params[:controller], "data-turbolinks-track" => true %>
     <!-- View Specific Elements -->
       <%= yield :head %>
   </head>

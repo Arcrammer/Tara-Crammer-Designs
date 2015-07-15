@@ -7,17 +7,10 @@
 body {
   background: image-url("PortfolioMainBackground.jpg") no-repeat fixed center center;
   background-size: cover;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 /* Content */
-h1 {
-  color: #262626;
-  font-family: "Jaapokki";
-  font-size: 9em;
-  margin: 2.5% 5%;
-  text-transform: uppercase;
-}
-
 h1 span {
   letter-spacing: -0.125em; /* Pull the o closer to the w. */
 }
@@ -52,8 +45,7 @@ section.post:last-of-type {
 }
 
 .post header {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 500;
   margin-top: 2.5%;
   margin-left: 25%;
@@ -152,46 +144,5 @@ section.post:last-of-type {
     float: left;
     text-align: center;
   }
-  
-/* Footer */
-footer img {
-  margin-top: 6.5%;
-}
 
-footer p {
-  color: #fff;
-  font-family: "Georgia", serif;
-  font-size: 1.15em;
-  font-style: italic;
-  letter-spacing: 0.5px;
-  margin: 5% auto;
-  text-transform: none;
-}
 
-footer p:last-of-type {
-  font-size: 1em;
-  margin: 2.5% auto;
-}
-
-footer span {
-  margin: auto 0.15%;
-}
-
-img[alt="Heart.png"] {
-  width: 20px;
-  vertical-align: -10%;
-}
-
-footer img[alt="HoA-Logo.png"] {
-  margin: 0;
-}
-
-/* Social Media Links */
-.social-links li {
-  display: inline;
-  margin: auto 1%;
-}
-
-.social-links a:link, .social-links a:visited, .social-links a:visited, .social-links a:hover,  {
-  text-decoration: none;
-}

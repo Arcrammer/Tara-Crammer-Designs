@@ -1,5 +1,4 @@
 <%= render "partials/navigation_bar" %>
-<button id="pancakes"><span></span><span></span><span></span></button>
 <h1>My <span>W</span>ork</h1>
 <% @latest_posts.each do |post| %>
   <section class="post">
@@ -13,34 +12,4 @@
     </div> <!-- .right -->
   </section>
 <% end %>
-<footer>
-  <div class="social-links">
-    <ul>
-      <li>
-        <a href="http://www.facebook.com/">
-          <%= image_tag "SocialMediaIcons/Facebook.png", :alt => "Facebook.png" %>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.twitter.com/">
-          <%= image_tag "SocialMediaIcons/Twitter.png", :alt => "Twitter.png" %>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.pinterest.com/">
-          <%= image_tag "SocialMediaIcons/Pinterest.png", :alt => "Pinterest.png" %>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.linkedin.com/">
-          <%= image_tag "SocialMediaIcons/LinkedIn.png", :alt => "LinkedIn.png" %>
-        </a>
-      </li>
-    </ul>
-  </div> <!-- .social-links -->
-  <p><span>Made</span> <span>with</span> <span><%= image_tag "Heart.png", :alt => "Heart.png" %></span> <span>by</span> <span>Alexander</span> <span>Rhett</span> <span>Crammer</span></p>
-  <p>&copy; <%= @current_year %> Tara Crammer Designs</p>
-  <a href="http://www.hausofalexander.ml/" target="_blank">
-    <%= image_tag("HoA-Logo.png", :alt => "HoA-Logo.png") %>
-  </a>
-</footer>
+<%= render "partials/extended_footer" %>

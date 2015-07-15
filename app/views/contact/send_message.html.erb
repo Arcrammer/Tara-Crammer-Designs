@@ -1,0 +1,9 @@
+<%= render "partials/navigation_bar" %>
+<h1>Sa<span>y</span> Hi</h1>
+<%= form_tag do %>
+  <%= text_field_tag :from %>
+  <%= text_field_tag :with_address %>
+  <%= text_field_tag :message %>
+  <%= submit_tag "Send" %>
+<% end %>
+<%= render "partials/extended_footer" %>

@@ -2,17 +2,20 @@ Rails.application.routes.draw do
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
   # Example of regular route:
   get 'Portfolio' => 'my_work#index'
   get 'Posts/:id' => 'posts#with_id'
+  get 'Contact' => 'contact#index'
   get 'Manage' => 'manage#index'
   get '404' => 'problems#_404'
   get '422' => 'problems#_422'
   get '500' => 'problems#_500'
+  
+  post 'Contact' => 'contact#send_message'
   
   # Problem pages
   match '/404', to: 'problems#_404', via: :all

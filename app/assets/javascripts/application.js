@@ -16,6 +16,7 @@
 //= require turbolinks
 
 $(document).ready(function () {
+  /* Pancake Button */
   var navigationStack = $("nav");
   var pancakes = $("#pancakes");
   navigationStack.css("display","none");

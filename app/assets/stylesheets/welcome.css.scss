@@ -99,26 +99,6 @@ button.teal:active {
   border-color: #21878E;
 }
 
-/* Footer */
-footer {
-  /* Begin Gradient */
-  background: rgb(255,45,85); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgb(255,45,85) 0%, rgb(255,59,95) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,45,85)), color-stop(100%,rgb(255,59,95))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d55', endColorstr='#ff3b5f',GradientType=0 ); /* IE6-9 */
-  /* End Gradient */
-  padding: 2.5% 0;
-  text-align: center;
-}
-
-footer img {
-  width: 6.5%;
-}
-
 /* Fonts */
 @font-face {
   font-family: "Jaapokki";

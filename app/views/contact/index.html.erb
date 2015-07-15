@@ -1,0 +1,11 @@
+<%= render "partials/navigation_bar" %>
+<h1>Sa<span>y</span> Hi</h1>
+<div class="container">
+  <%= form_tag do %>
+    <%= text_field_tag :from, nil, :placeholder => 'First name' %>
+    <%= text_field_tag :with_address, nil, :placeholder => 'Email address' %>
+    <%= text_area_tag :message, nil, :placeholder => 'Write your message here then press send.' %>
+    <%= submit_tag "Send" %>
+  <% end %>
+</div> <!-- .container -->
+<%= render "partials/extended_footer" %>

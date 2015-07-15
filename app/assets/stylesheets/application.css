@@ -11,6 +11,7 @@
  * file per style scope.
  *
  *= require_self
+ *
  */
 
 /*  application.css
@@ -25,6 +26,14 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* Content */
+h1 {
+  color: #262626;
+  font-family: "Jaapokki";
+  font-size: 9em;
+  margin: 2.5% 5%;
+  text-transform: uppercase;
+}
+
 h4 {
   color: #4c4c4c;
 }
@@ -81,4 +90,66 @@ button.btn:active {
   background-color: #B02E48;
   border-color: #B02E48;
   color: white; /* Prevent the text from going gray if active and the cursor doesn't hover */
+}
+
+/* Footer */
+footer {
+  /* Begin Gradient */
+  background: rgb(255,45,85); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgb(255,45,85) 0%, rgb(255,59,95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,45,85)), color-stop(100%,rgb(255,59,95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgb(255,45,85) 0%,rgb(255,59,95) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2d55', endColorstr='#ff3b5f',GradientType=0 ); /* IE6-9 */
+  /* End Gradient */
+  padding: 2.5% 0;
+  text-align: center;
+}
+
+footer img {
+  width: 6.5%;
+}
+
+footer.extended img {
+  margin-top: 6.5%;
+}
+
+footer.extended p {
+  color: #fff;
+  font-family: "Georgia", serif;
+  font-size: 1.15em;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  margin: 5% auto;
+  text-transform: none;
+}
+
+footer.extended p:last-of-type {
+  font-size: 1em;
+  margin: 2.5% auto;
+}
+
+footer.extended span {
+  margin: auto 0.15%;
+}
+
+footer img[alt="Heart.png"] {
+  width: 20px;
+  vertical-align: -10%;
+}
+
+footer.extended img[alt="HoA-Logo.png"] {
+  margin: 0;
+}
+
+/* Social Media Links */
+.social-links li {
+  display: inline;
+  margin: auto 1%;
+}
+
+.social-links a:link, .social-links a:visited, .social-links a:hover, .social-links a:active {
+  text-decoration: none;
 }
