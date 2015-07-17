@@ -57,3 +57,34 @@ input[type="submit"]:hover, input[type="submit"]:active {
   font-style: italic;
   text-decoration: underline;
 }
+
+/* Methods of Contact */
+.methods-of-contact {
+  display: inline-block;
+  margin: 7.5% 0;
+}
+
+.method-of-contact {
+  float: left;
+  margin: 6.5% 5%;
+  width: 40%;
+}
+
+.method-of-contact img {
+  float: left;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.method-of-contact p {
+  float: left;
+  font-family: "Courier", monospace;
+  font-size: 0.875em;
+  line-height: 175%;
+  padding: 7.5% 0 0 10%;
+  width: 50%;
+}
+
+.method-of-contact:first-of-type p {
+  padding: 2.5% 0 0 10%;
+}

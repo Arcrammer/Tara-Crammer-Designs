@@ -7,5 +7,23 @@
     <%= text_area_tag :message, nil, :placeholder => 'Write your message here then press send.' %>
     <%= submit_tag "Send" %>
   <% end %>
+  <div class="methods-of-contact">
+    <div class="method-of-contact">
+      <%= image_tag "Map.png", :alt => 'Map.png' %>
+      <p>822 Front Street<br />Georgetown, SC 29440<br />(843) 545 - 9000</p>
+    </div> <!-- .method-of-contact -->
+    <div class="method-of-contact">
+      <%= image_tag "Phone.png", :alt => 'Phone.png' %>
+      <p>+1 (843) 457 - 1584</p>
+    </div> <!-- .method-of-contact -->
+    <div class="method-of-contact">
+      <%= image_tag "Messages.png", :alt => 'Messages.png' %>
+      <p>taracrammer@yahoo.com</p>
+    </div> <!-- .method-of-contact -->
+    <div class="method-of-contact">
+      <%= image_tag "Mail.png", :alt => 'Mail.png' %>
+      <p>tcrammer@augustusandcarolina.com</p>
+    </div> <!-- .method-of-contact -->
+  </div> <!-- .methods-of-contact -->
 </div> <!-- .container -->
 <%= render "partials/extended_footer" %>
