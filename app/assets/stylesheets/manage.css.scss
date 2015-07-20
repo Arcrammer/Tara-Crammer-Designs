@@ -1,0 +1,54 @@
+// Place all the styles related to the manage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*  manage.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+
+/* Structure */
+body {
+  background: image-url("ManageBackground.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+.column {
+  float: left;
+  margin: 2.5%;
+  width: 45%;
+}
+
+/* Create View */
+input, textarea {
+  background-color: transparent;
+  border: 0;
+  color: #383838;
+  resize: none;
+  text-align: center;
+}
+
+.post-title {
+  width: 100% !important;
+}
+
+.post-tags {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.35px;
+  padding: 2.5% 0;
+  text-align: left;
+  text-indent: 6.5%;
+  width: 100%;
+}
+
+.post-image-title {
+  color: #3c3c3c;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  padding: 5% 0;
+  text-align: left;
+}
+
+.white-background {
+  background-color: rgba(255,255,255,0.5);
+}
