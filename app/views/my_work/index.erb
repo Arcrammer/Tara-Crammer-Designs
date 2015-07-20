@@ -8,7 +8,7 @@
       <a href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
     </div> <!-- .left -->
     <div class="right">
-      <%= image_tag "PostHeaderImages/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
+      <%= image_tag "/post-header-images/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
     </div> <!-- .right -->
   </section>
 <% end %>

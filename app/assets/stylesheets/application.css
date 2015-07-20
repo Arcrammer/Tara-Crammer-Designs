@@ -61,14 +61,14 @@ section:last-of-type {
 }
 
 /* Buttons */
-button {
+button, input[type="submit"] {
   background-color: transparent;
   border: 0;
   cursor: pointer;
   outline: none;
 }
 
-button.btn {
+button.btn, input[type="submit"].btn {
   border: 3px solid #ff6181;
   color: #676767;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -80,13 +80,13 @@ button.btn {
   transition: all 175ms;
 }
 
-button.btn:hover {
+button.btn:hover, input[type="submit"].btn:hover {
   background-color: #FF7994;
   border-color: #ff6181;
   color: white;
 }
 
-button.btn:active {
+button.btn:active, input[type="submit"].btn:active {
   background-color: #B02E48;
   border-color: #B02E48;
   color: white; /* Prevent the text from going gray if active and the cursor doesn't hover */
@@ -152,4 +152,15 @@ footer.extended img[alt="HoA-Logo.png"] {
 
 .social-links a:link, .social-links a:visited, .social-links a:hover, .social-links a:active {
   text-decoration: none;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Jaapokki";
+  src: url('Jaapokki-Regular.eot');
+  src: url('Jaapokki-Regular.eot') format('embedded-opentype'),
+       url('Jaapokki-Regular.woff2') format('woff2'),
+       url('Jaapokki-Regular.woff') format('woff'),
+       url('Jaapokki-Regular.ttf') format('truetype'),
+       url('Jaapokki-Regular.svg') format('svg');
 }

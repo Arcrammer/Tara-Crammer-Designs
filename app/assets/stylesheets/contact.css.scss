@@ -33,6 +33,7 @@ input[type="text"] {
   font-weight: 700;
   margin: 0 2.75%;
   padding: 0.25% 1.5%;
+  width: 41.25%;
 }
 
 textarea {
@@ -42,6 +43,7 @@ textarea {
   height: 350px;
   resize: none;
   margin: 10% 5%;
+  text-align: center;
   width: 90%;
 }
 
@@ -87,4 +89,19 @@ input[type="submit"]:hover, input[type="submit"]:active {
 
 .method-of-contact:first-of-type p {
   padding: 2.5% 0 0 10%;
+}
+
+.method-of-contact:nth-child(3) {
+  clear: left;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Daniel";
+  src: url('Daniel.eot');
+  src: url('Daniel.eot') format('embedded-opentype'),
+       url('Daniel.woff2') format('woff2'),
+       url('Daniel.woff') format('woff'),
+       url('Daniel.ttf') format('truetype'),
+       url('Daniel.svg') format('svg');
 }

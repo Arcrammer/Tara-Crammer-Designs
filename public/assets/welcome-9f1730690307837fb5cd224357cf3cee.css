@@ -1,0 +1,124 @@
+/*  welcome.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+/* Structure */
+/* line 12, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+.container {
+  padding-top: 15%;
+  text-align: center;
+}
+
+/* Content */
+/* line 18, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+p {
+  color: #595959;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.35em;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 225%;
+  margin: 10% auto;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+/* Trons */
+/* line 31, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#greeting-tron {
+  background: url(/assets/SplashGreetingBackground.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 36, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#greeting-tron h4 {
+  font-family: "Jaapokki";
+  font-size: 7em;
+  text-transform: uppercase;
+}
+
+/* line 42, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#greeting-tron h4 span {
+  color: #41cfd9;
+}
+
+/* line 46, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#greeting-tron button {
+  margin-bottom: 5%;
+}
+
+/* line 50, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#interior-tron {
+  background: url(/assets/SplashInteriorBackground.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 55, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#interior-tron h4 {
+  font-family: "Luna";
+  font-size: 3.25em;
+  text-shadow: 3px 3px 0 white;
+}
+
+/* line 61, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#event-tron {
+  background: url(/assets/SplashEventBackground.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 66, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#event-tron h4 {
+  font-family: "Darleston";
+  font-size: 5em;
+  text-shadow: 3px 3px 0 white;
+}
+
+/* line 72, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#question-tron {
+  background: url(/assets/SplashQuestionBackground.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 77, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#question-tron .container {
+  padding: 10%;
+}
+
+/* line 81, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+#question-tron h4 {
+  font-family: "Jaapokki";
+  font-size: 5.5em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 white;
+}
+
+/* Buttons */
+/* line 89, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+button.teal {
+  border-color: #41cfd9;
+}
+
+/* line 93, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+button.teal:hover {
+  background-color: #5BDEE7;
+  border-color: #41cfd9;
+}
+
+/* line 98, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/welcome.css.scss */
+button.teal:active {
+  background-color: #21878E;
+  border-color: #21878E;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Luna";
+  src: url(/assets/Luna.eot);
+  src: url(/assets/Luna.eot) format("embedded-opentype"), url(/assets/Luna.woff2) format("woff2"), url(/assets/Luna.woff) format("woff"), url(/assets/Luna.ttf) format("truetype"), url(/assets/Luna.svg) format("svg");
+}
+
+@font-face {
+  font-family: "Darleston";
+  src: url(/assets/Darleston.eot);
+  src: url(/assets/Darleston.eot) format("embedded-opentype"), url(/assets/Darleston.woff2) format("woff2"), url(/assets/Darleston.woff) format("woff"), url(/assets/Darleston.ttf) format("truetype"), url(/assets/Darleston.svg) format("svg");
+}

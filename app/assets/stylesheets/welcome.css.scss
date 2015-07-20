@@ -101,31 +101,21 @@ button.teal:active {
 
 /* Fonts */
 @font-face {
-  font-family: "Jaapokki";
-  src: font-url('Jaapokki-Regular.eot');
-  src: font-url('Jaapokki-Regular.eot') format('embedded-opentype'),
-       font-url('Jaapokki-Regular.woff2') format('woff2'),
-       font-url('Jaapokki-Regular.woff') format('woff'),
-       font-url('Jaapokki-Regular.ttf') format('truetype'),
-       font-url('Jaapokki-Regular.svg') format('svg');
-}
-
-@font-face {
   font-family: "Luna";
-  src: font-url('Luna.eot');
-  src: font-url('Luna.eot') format('embedded-opentype'),
-       font-url('Luna.woff2') format('woff2'),
-       font-url('Luna.woff') format('woff'),
-       font-url('Luna.ttf') format('truetype'),
-       font-url('Luna.svg') format('svg');
+  src: url('Luna.eot');
+  src: url('Luna.eot') format('embedded-opentype'),
+       url('Luna.woff2') format('woff2'),
+       url('Luna.woff') format('woff'),
+       url('Luna.ttf') format('truetype'),
+       url('Luna.svg') format('svg');
 }
 
 @font-face {
   font-family: "Darleston";
-  src: font-url('Darleston.eot');
-  src: font-url('Darleston.eot') format('embedded-opentype'),
-       font-url('Darleston.woff2') format('woff2'),
-       font-url('Darleston.woff') format('woff'),
-       font-url('Darleston.ttf') format('truetype'),
-       font-url('Darleston.svg') format('svg');
+  src: url('Darleston.eot');
+  src: url('Darleston.eot') format('embedded-opentype'),
+       url('Darleston.woff2') format('woff2'),
+       url('Darleston.woff') format('woff'),
+       url('Darleston.ttf') format('truetype'),
+       url('Darleston.svg') format('svg');
 }

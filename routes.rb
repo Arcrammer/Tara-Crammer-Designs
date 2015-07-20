@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'Contact' => 'contact#index'
   get 'Contacted' => 'contact#contacted'
   get 'Manage' => 'manage#index'
+  get 'Manage/Create' => 'manage#create'
   get '404' => 'problems#_404'
   get '422' => 'problems#_422'
   get '500' => 'problems#_500'

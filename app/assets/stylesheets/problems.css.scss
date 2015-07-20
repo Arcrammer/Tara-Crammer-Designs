@@ -49,10 +49,10 @@ a:active {
 /* Fonts */
 @font-face {
   font-family: "Againts";
-  src: font-url('Againts.eot');
-  src: font-url('Againts.eot') format('embedded-opentype'),
-       font-url('Againts.woff2') format('woff2'),
-       font-url('Againts.woff') format('woff'),
-       font-url('Againts.ttf') format('truetype'),
-       font-url('Againts.svg') format('svg');
+  src: url('Againts.eot');
+  src: url('Againts.eot') format('embedded-opentype'),
+       url('Againts.woff2') format('woff2'),
+       url('Againts.woff') format('woff'),
+       url('Againts.ttf') format('truetype'),
+       url('Againts.svg') format('svg');
 }

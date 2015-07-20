@@ -1,1 +1,6 @@
 <%= render "partials/navigation_bar" %>
+<div class="container">
+  <h4><%= @post.title %></h4>
+  <%= render "full_posts/#{@post.file_name}" %>
+</div> <!-- .container -->
+<%= render "partials/extended_footer" %>
