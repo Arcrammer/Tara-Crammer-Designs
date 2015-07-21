@@ -52,3 +52,45 @@ input, textarea {
 .white-background {
   background-color: rgba(255,255,255,0.5);
 }
+
+/* Sign-in Form */
+.sign-in-form h4 {
+  color: #DF1D44;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.sign-in-form {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 10%;
+  z-index: 1;
+}
+
+.sign-in-form input:not([type="submit"]) {
+  background-color: rgba(245, 245, 245, 0.75);
+  border: 2px solid #D7D7D7;
+  border-radius: 7.5px;
+  display: block;
+  font-family: "Georgia", serif;
+  font-size: 1em;
+  font-style: italic;
+  letter-spacing: 0.75px;
+  margin: 5% auto;
+  padding: 2.25% 5%;
+}
+
+.sign-in-form input[type="password"] {
+  letter-spacing: 7.5px;
+}
+
+.sign-in-form input[type="submit"] {
+  display: block;
+  padding: 2% 5%;
+  margin: auto;
+}

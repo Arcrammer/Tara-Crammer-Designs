@@ -1,0 +1,10 @@
+<div class="sign-in-form">
+  <% if flash[:correct_credentials] == false %>
+    <h4>Those aren't the right credentials. :(</h4>
+  <% end %>
+  <%= form_for :user do |builder| %>
+    <%= builder.text_field :username, :placeholder => 'Username' %>
+    <%= builder.password_field :submitted_password, :placeholder => '••••••••••••' %>
+    <%= builder.submit :submit_button, :value => 'Login', :class => 'btn' %>
+  <% end %>
+</div>

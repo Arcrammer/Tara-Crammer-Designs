@@ -18,8 +18,8 @@ Rails.application.routes.draw do
   get '500' => 'problems#_500'
   
   post 'Contact' => 'contact#send_message'
+  post 'Manage' => 'manage#index'
   post 'Manage/Create' => 'manage#create'
-  post 'Manage/UploadImage' => 'manage#upload_image'
   
   # Problem pages
   match '/404', to: 'problems#_404', via: :all
