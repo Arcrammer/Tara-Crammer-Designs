@@ -53,9 +53,21 @@ input, textarea {
   background-color: rgba(255,255,255,0.5);
 }
 
+.shoo-message {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 2em;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.red-border {
+  border: 3px solid rgba(255,0,0,0.5);
+  width: 99% !important;
+}
+
 /* Sign-in Form */
 .sign-in-form h4 {
-  color: #DF1D44;
+  color: #DD10B2;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 1.25em;
   letter-spacing: 0.5px;
@@ -90,7 +102,18 @@ input, textarea {
 }
 
 .sign-in-form input[type="submit"] {
+  border-color: #EC81D6;
   display: block;
   padding: 2% 5%;
   margin: auto;
+}
+
+.sign-in-form input[type="submit"]:hover {
+  background-color: #F9A5E7;
+  border-color: #EC81D6;
+}
+
+.sign-in-form input[type="submit"]:active {
+  background-color: #993885;
+  border-color: #A84393;
 }

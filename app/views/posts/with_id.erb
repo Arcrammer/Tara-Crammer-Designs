@@ -1,6 +1,7 @@
 <%= render "partials/navigation_bar" %>
-<div class="container">
+<div class="container post">
   <h4><%= @post.title %></h4>
-  <%= render "full_posts/#{@post.file_name}" %>
+  <%= image_tag "post-header-images/#{@post.file_name}.jpg" %>
+  <%= raw Nokogiri::HTML(File.open("#{Rails.root}/public/full_posts/_#{@post.file_name}.html.erb","r")) %>
 </div> <!-- .container -->
 <%= render "partials/extended_footer" %>

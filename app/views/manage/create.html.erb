@@ -1,4 +1,4 @@
-<% if flash[:correct_credentials] == true # The user has logged in %>
+<% if !session[:user].nil? # The user has logged in %>
   <% content_for :head do %>
     <%= stylesheet_link_tag "posts.css" %>
     <%= javascript_include_tag "tinymce/tinymce.min.js" %>
@@ -6,16 +6,16 @@
   <% end %>
   <%= render "partials/navigation_bar" %>
   <h1>New Post</h1>
-  <div class="container">
+  <div class="container create-post-form">
     <%= form_for :blog_post do |builder| %>
-      <%= builder.text_area :title, :class => 'post-header post-title white-background', :placeholder => 'Title' %><br />
+      <%= builder.text_area :title, :class => 'post-header post-title post-field white-background', :id => 'post-title', :placeholder => 'Title' %><br />
       <%= builder.text_area :body, :class => 'post-content', :placeholder => 'Body', :id => 'post-body' %><br />
       <div class="column">
         <h6 class="post-image-title">Header Image:</h6>
-        <%= builder.file_field :header_image, :class => 'post-image' %><br />
+        <%= builder.file_field :header_image, :class => 'post-image', :id => 'header-image-button' %><br />
       </div> <!-- .column -->
       <div class="column">
-        <%= builder.text_field :tags, :class => 'post-tags white-background', :placeholder => 'Tags', :autocomplete => 'off' %><br />
+        <%= builder.text_field :tags, :class => 'post-tags post-field white-background', :id => 'post-tags', :placeholder => 'Tags', :autocomplete => 'off' %><br />
       </div> <!-- .column -->
       <%= builder.submit :submit_button, :value => 'Post', :class => 'btn' %>
     <% end %>
@@ -42,5 +42,5 @@
   <script>
     window.location.href = "/Manage";
   </script>
-  <h4 style='font-family: "Helvetica Neue", "Helvetica", sans-serif;font-size: 2em;margin-top: 15%;text-align: center'>You shouldn't be here. Login first!</h4>
+  <h4 class="shoo-message">You shouldn't be here. Please sign in first!</h4>
 <% end %>

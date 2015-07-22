@@ -4,11 +4,11 @@
   <section class="post">
     <div class="left">
       <header><%= post.title %></header>
-      <%= render "full_posts/#{post.file_name}" %>
+      <%= raw Nokogiri::HTML(File.open("#{Rails.root}/public/full_posts/_#{post.file_name}.html.erb","r")).xpath("//p")[0] %>
       <a href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
     </div> <!-- .left -->
     <div class="right">
-      <%= image_tag "/post-header-images/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
+      <%= image_tag "post-header-images/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
     </div> <!-- .right -->
   </section>
 <% end %>
