@@ -1,0 +1,14 @@
+<% content_for :title, "Tara Crammer Designs / Delete" %>
+<% content_for :background_class, "delete-page" %>
+<% if session[:authenticated_user] != nil # The user has logged in %>
+  <%= render "partials/manage_navigation_bar" %>
+  <h1>Delete</h1>
+  <div class="container">
+  </div> <!-- .container -->
+  <%= render "partials/short_footer" %>
+<% else # The user hasn't logged in yet %>
+  <script>
+    window.location.href = "/Manage";
+  </script>
+  <h4 class="shoo-message">You shouldn't be here. Please sign in first!</h4>
+<% end %>

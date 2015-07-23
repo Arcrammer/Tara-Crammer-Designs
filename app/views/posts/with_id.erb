@@ -1,7 +1,9 @@
+<% content_for :title, "Tara Crammer Designs / Post" %>
 <%= render "partials/navigation_bar" %>
 <div class="container post">
   <h4><%= @post.title %></h4>
   <%= image_tag "post-header-images/#{@post.file_name}.jpg" %>
   <%= raw Nokogiri::HTML(File.open("#{Rails.root}/public/full_posts/_#{@post.file_name}.html.erb","r")) %>
+  <a class="themed" href="/Portfolio"><span style="vertical-align: text-top">&laquo;</span> Back</a>
 </div> <!-- .container -->
 <%= render "partials/extended_footer" %>

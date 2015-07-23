@@ -1,25 +1,22 @@
-// Place all the styles related to the Posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 /*  posts.css.scss
     July 2015
     Tara Crammer Designs
     Alexander Rhett Crammer  */
-
 /* Structure */
+/* line 12, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/posts.css.scss */
 body {
-  background: image-url("WatercolourSplash3.jpg") no-repeat fixed center center;
+  background: url(/assets/WatercolourSplash3.jpg) no-repeat fixed center center;
   background-size: cover;
 }
 
+/* line 17, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/posts.css.scss */
 .container {
-//   background-color: yellow;
   text-align: center;
   width: 80%;
 }
 
 /* Content */
+/* line 24, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/posts.css.scss */
 h4, .post-header {
   font-family: "Jaapokki", sans-serif;
   font-size: 3em;
@@ -29,8 +26,9 @@ h4, .post-header {
   width: 75%;
 }
 
+/* line 33, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/posts.css.scss */
 p, .post-content {
-  color: rgb(90, 90, 90);
+  color: #5a5a5a;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 1em;
   letter-spacing: 0.25px;
@@ -39,6 +37,7 @@ p, .post-content {
   width: 85%;
 }
 
+/* line 43, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/posts.css.scss */
 .post img {
   margin: 6.5% 0;
 }

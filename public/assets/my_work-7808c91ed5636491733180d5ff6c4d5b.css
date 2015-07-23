@@ -1,0 +1,168 @@
+/*  my_work.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+/* Structure */
+/* line 8, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+body {
+  background: url(/assets/PortfolioMainBackground.jpg) no-repeat fixed center center;
+  background-size: cover;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+/* Content */
+/* line 15, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+h1 span {
+  letter-spacing: -0.125em;
+  /* Pull the o closer to the w. */
+}
+
+/* News */
+/* line 20, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+section.post {
+  border: 0;
+  height: 350px;
+  margin: 2.5% auto;
+  overflow: hidden;
+}
+
+/* line 27, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+section.post:first-of-type {
+  margin-top: 10%;
+}
+
+/* line 31, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+section.post:last-of-type {
+  margin-bottom: 10%;
+}
+
+/* line 35, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post .left {
+  float: left;
+  margin-top: 2.5%;
+  width: 46.5%;
+}
+
+/* line 41, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post .right {
+  float: right;
+  overflow: visible;
+  text-align: center;
+  width: 46.5%;
+}
+
+/* line 48, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post header {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 2.5%;
+  margin-left: 25%;
+  margin-bottom: 2.25%;
+  letter-spacing: 0.25px;
+  line-height: 125%;
+  text-align: right;
+  width: 75%;
+}
+
+/* line 60, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) header {
+  margin-left: 0;
+  margin-right: 25%;
+}
+
+/* line 65, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(1n+0) header, .post:nth-of-type(1n+0) a {
+  color: #fe0e4f !important;
+}
+
+/* line 69, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) header, .post:nth-of-type(2n+0) a {
+  color: #6fce8a !important;
+}
+
+/* line 73, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(3n+0) header, .post:nth-of-type(3n+0) a {
+  color: #47b0d3 !important;
+}
+
+/* line 77, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post p {
+  color: #646464;
+  float: right;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  line-height: 175%;
+  margin: 0;
+  text-align: right;
+  text-transform: none;
+  width: 75%;
+}
+
+/* line 90, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post a {
+  color: inherit;
+  display: block;
+  float: right;
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  margin: 5% auto;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/* line 104, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post a span {
+  font-family: "Georgia", serif;
+  vertical-align: 10%;
+}
+
+/* line 109, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post img {
+  background-size: cover;
+  position: relative;
+  top: -45px;
+  padding: 15%;
+  width: 360px;
+}
+
+/* line 117, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(1n) img {
+  background-image: url(/assets/PortfolioBackgrounds/Pink.png);
+}
+
+/* line 121, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n) img {
+  background-image: url(/assets/PortfolioBackgrounds/Green.png);
+}
+
+/* line 125, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(3n) img {
+  background-image: url(/assets/PortfolioBackgrounds/Blue.png);
+}
+
+/* Opposite Orientation */
+/* line 130, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) .left {
+  float: right;
+}
+
+/* line 134, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) .left * {
+  float: left;
+  text-align: left;
+}
+
+/* line 139, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) .left span {
+  float: none;
+}
+
+/* line 143, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/my_work.css.scss */
+.post:nth-of-type(2n+0) .right {
+  float: left;
+  text-align: center;
+}

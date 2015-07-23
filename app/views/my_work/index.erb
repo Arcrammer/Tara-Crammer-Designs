@@ -1,15 +1,25 @@
+<% content_for :title, "Tara Crammer Designs / My Work" %>
 <%= render "partials/navigation_bar" %>
 <h1>My <span>W</span>ork</h1>
 <% @latest_posts.each do |post| %>
-  <section class="post">
-    <div class="left">
+  <% image_available = File.exists?("#{Rails.root}/public/images/post-header-images/#{post.file_name}.jpg") %>
+  <% if image_available == true %>
+    <section class="post">
+      <div class="left">
+        <header><%= post.title %></header>
+        <%= raw Nokogiri::HTML(File.open("#{Rails.root}/public/full_posts/_#{post.file_name}.html.erb","r")).xpath("//p")[0] %>
+        <a href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
+      </div> <!-- .left -->
+      <div class="right">
+        <%= image_tag "post-header-images/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
+      </div> <!-- .right -->
+    </section>
+  <% else %>
+    <section class="post imageless">
       <header><%= post.title %></header>
       <%= raw Nokogiri::HTML(File.open("#{Rails.root}/public/full_posts/_#{post.file_name}.html.erb","r")).xpath("//p")[0] %>
-      <a href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
-    </div> <!-- .left -->
-    <div class="right">
-      <%= image_tag "post-header-images/#{post.file_name}.jpg", :alt => "#{post.file_name}.jpg" %>
-    </div> <!-- .right -->
-  </section>
+      <a class="details-link" href="Posts/<%= post.id %>">Details <span>&raquo;</span></a>
+    </section> <!-- .imageless -->
+  <% end %>
 <% end %>
 <%= render "partials/extended_footer" %>

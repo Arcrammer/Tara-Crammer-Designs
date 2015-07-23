@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'Contacted' => 'contact#contacted'
   get 'Manage' => 'manage#index'
   get 'Manage/Create' => 'manage#create'
+  get '/Manage/Bye' => 'manage#bye'
+  get '/Manage/Logout' => 'manage#logout'
   get '404' => 'problems#_404'
   get '422' => 'problems#_422'
   get '500' => 'problems#_500'
@@ -20,6 +22,7 @@ Rails.application.routes.draw do
   post 'Contact' => 'contact#send_message'
   post 'Manage' => 'manage#index'
   post 'Manage/Create' => 'manage#create'
+  post 'Manage/Logout' => 'manage#logout'
   
   # Problem pages
   match '/404', to: 'problems#_404', via: :all

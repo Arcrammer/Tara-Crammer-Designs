@@ -20,7 +20,7 @@
     <!-- View Specific Elements -->
       <%= yield :head %>
   </head>
-  <body>
+  <body class="<%= yield :background_class %>">
     <%= yield %>
   </body>
 </html>

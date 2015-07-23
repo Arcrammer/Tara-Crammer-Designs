@@ -3,6 +3,7 @@
     Tara Crammer Designs
     Alexander Rhett Crammer  */
 
+
 $(document).ready(function () {
   switch (window.location.pathname) {
     case "/Manage/Create": {
@@ -17,6 +18,9 @@ $(document).ready(function () {
             emptyFields.push(field.id);
           }
         });
+        if ($($(".post-image")[0]).val() == "") {
+          emptyFields.push("header-image-button");
+        }
         if (tinyMCE.activeEditor.getContent() == "") {
           emptyFields.push("post-body");
         }

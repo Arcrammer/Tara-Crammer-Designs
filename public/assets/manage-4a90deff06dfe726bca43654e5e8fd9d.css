@@ -1,18 +1,15 @@
-// Place all the styles related to the manage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 /*  manage.css.scss
     July 2015
     Tara Crammer Designs
     Alexander Rhett Crammer  */
-
 /* Structure */
+/* line 12, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 body {
-  background: image-url("ManageBackground.jpg") no-repeat fixed center center;
+  background: url(/assets/ManageBackground.jpg) no-repeat fixed center center;
   background-size: cover;
 }
 
+/* line 17, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .column {
   float: left;
   margin: 2.5%;
@@ -20,11 +17,13 @@ body {
 }
 
 /* Backgrounds */
+/* line 24, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .delete-page {
-  background-image: image-url("WatercolourSplash4.jpg");
+  background-image: url(/images/WatercolourSplash4);
 }
 
 /* Create View */
+/* line 29, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 input, textarea {
   background-color: transparent;
   border: 0;
@@ -33,10 +32,12 @@ input, textarea {
   text-align: center;
 }
 
+/* line 37, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .post-title {
   width: 100% !important;
 }
 
+/* line 41, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .post-tags {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 0.9em;
@@ -47,6 +48,7 @@ input, textarea {
   width: 100%;
 }
 
+/* line 51, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .post-image-title {
   color: #3c3c3c;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -54,10 +56,12 @@ input, textarea {
   text-align: left;
 }
 
+/* line 58, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .white-background {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
+/* line 62, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .shoo-message {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 2em;
@@ -65,12 +69,14 @@ input, textarea {
   text-align: center;
 }
 
+/* line 69, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .red-border {
-  border: 3px solid rgba(255,0,0,0.5);
+  border: 3px solid rgba(255, 0, 0, 0.5);
   width: 99% !important;
 }
 
 /* Sign-in Form */
+/* line 75, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .sign-in-form h4 {
   color: #DD10B2;
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
@@ -79,6 +85,7 @@ input, textarea {
   text-align: center;
 }
 
+/* line 83, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .sign-in-form {
   position: fixed;
   top: 0;
@@ -89,6 +96,7 @@ input, textarea {
   z-index: 1;
 }
 
+/* line 93, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .sign-in-form input:not([type="submit"]) {
   background-color: rgba(245, 245, 245, 0.75);
   border: 2px solid #D7D7D7;
@@ -102,10 +110,12 @@ input, textarea {
   padding: 2.25% 5%;
 }
 
+/* line 106, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .sign-in-form input[type="password"] {
   letter-spacing: 7.5px;
 }
 
+/* line 110, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .btn-pink {
   border-color: #EC81D6 !important;
   display: block !important;
@@ -113,26 +123,31 @@ input, textarea {
   margin: auto !important;
 }
 
+/* line 117, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .btn-pink:hover {
   background-color: #F9A5E7 !important;
   border-color: #EC81D6 !important;
 }
 
+/* line 122, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .btn-pink:active {
   background-color: #993885 !important;
   border-color: #A84393 !important;
 }
 
 /* Post Login */
+/* line 128, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .manage-home-container {
   margin-top: 10%;
   text-align: center;
 }
 
+/* line 133, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .manage-home-container a {
   text-decoration: none;
 }
 
+/* line 137, /Users/alexander/Sites/Tara-Crammer-Designs/app/assets/stylesheets/manage.css.scss */
 .manage-home-container .btn-pink {
   margin: 2.5% auto !important;
   width: 25% !important;

@@ -1,10 +1,21 @@
-<div class="sign-in-form">
-  <% if flash[:correct_credentials] == false %>
-    <h4>Those aren't the right credentials. :(</h4>
-  <% end %>
-  <%= form_for :user do |builder| %>
-    <%= builder.text_field :username, :placeholder => 'Username' %>
-    <%= builder.password_field :submitted_password, :placeholder => '••••••••••••' %>
-    <%= builder.submit :submit_button, :value => 'Login', :class => 'btn' %>
-  <% end %>
-</div>
+<% if session[:authenticated_user] != nil %>
+  <%= render "partials/manage_navigation_bar" %>
+  <% content_for :title, "Tara Crammer Designs / Manage" %>
+  <div class="manage-home-container">
+    <a href="/Manage/Create"><button class="btn btn-pink">New Post</button></a>
+    <a href="/Manage/Bye"><button class="btn btn-pink">Delete Posts</button></a><br />
+    <%= button_to("Logout", {:controller => 'manage', :action => 'logout'}, {:class => 'btn btn-pink'}) %>
+  </div> <!-- .manage-home-container -->
+<% else %>
+  <% content_for :title, "Tara Crammer Designs / Login" %>
+  <div class="sign-in-form">
+    <% if flash[:correct_credentials] == false %>
+      <h4>Those aren't the right credentials. :(</h4>
+    <% end %>
+    <%= form_for :user do |builder| %>
+      <%= builder.text_field :username, :placeholder => 'Username', :value => 'TCrammer' %>
+      <%= builder.password_field :submitted_password, :placeholder => '••••••••••••', :value => 'testpassword' %>
+      <%= builder.submit :submit_button, :value => 'Login', :class => 'btn btn-pink' %>
+    <% end %>
+  </div>
+<% end %>
