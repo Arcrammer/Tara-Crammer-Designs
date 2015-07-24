@@ -22,4 +22,10 @@
     </section> <!-- .imageless -->
   <% end %>
 <% end %>
+<%=
+  will_paginate(@latest_posts, {
+    :previous_label => 'Ealier',
+    :next_label => 'Older'
+  })
+%>
 <%= render "partials/extended_footer" %>
