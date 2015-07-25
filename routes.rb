@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-  
+
   # Example of regular route:
   get 'Portfolio' => 'my_work#index'
   get 'Posts/:id' => 'posts#with_id'

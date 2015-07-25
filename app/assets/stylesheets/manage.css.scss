@@ -137,37 +137,3 @@ input, textarea {
   margin: 2.5% auto !important;
   width: 25% !important;
 }
-
-/* Delete Table */
-table {
-  background-color: rgba(255,255,255,0.95);
-  border: 2px solid rgba(215,215,215,0.95);
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
-  width: 100%;
-}
-
-tr:first-of-type td {
-  background-color: rgba(248,248,248,0.95);
-  border-bottom: 2px solid rgba(215,215,215,0.95);
-  padding: 2.5%;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-td {
-  border: 2px solid rgba(215,215,215,0.95);
-  overflow-x: auto;
-  padding: 2.5%;
-  text-align: center;
-  width: 100px;
-  vertical-align: middle;
-}
-
-td:first-of-type {
-  width: 5px;
-}
-
-td:last-of-type {
-  width: 5px;
-}
