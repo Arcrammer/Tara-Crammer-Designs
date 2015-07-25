@@ -8,6 +8,7 @@ $(document).ready(function () {
     case "/Manage/Create": {
       /* Properties */
       var newPostForm = document.forms[0];
+      /* Search for missing data throughout the form */
       newPostForm.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent the form from immediate submission
         var emptyFields = []; // Create and reset at each submission
@@ -30,6 +31,13 @@ $(document).ready(function () {
           });
         }
       });
-    }
+      /* Tag Input */
+      var tagField = $("#post-tags")[0], tags = [];
+      $(tagField).keyup(function () {
+        if (tagField.value.substr(tagField.value.length - 1) == ",") {
+          console.log("Comma");
+        }
+      });
+    } /* END '/Manage/Create' */
   }
 });

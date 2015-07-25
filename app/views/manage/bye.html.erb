@@ -1,0 +1,34 @@
+<% content_for :title, "Tara Crammer Designs / Delete" %>
+<% content_for :background_class, "delete-page" %>
+<% if session[:authenticated_user] != nil # The user has logged in %>
+  <%= render "partials/manage_navigation_bar" %>
+  <h1>Delete</h1>
+  <div class="container">
+    <table>
+      <tr>
+        <td>#</td>
+        <td>Title</td>
+        <td>Tags</td>
+        <td>Created</td>
+        <td>Delete</td>
+      </tr>
+      <% @posts.order('created_at DESC').each do |post| %>
+        <tr>
+          <td><%= post.id %></td>
+          <td><%= post.title %></td>
+          <td>
+            <p><%= post.tags.map(&:inspect).join(", ").gsub("\"", "") %><%= '.' %></p>
+          </td>
+          <td><%= post.created_at.strftime("%a, %b %-m, %Y") %></td>
+          <td><a class="themed" href="/Manage/Delete/<%= post.id %>">Delete</a></td>
+        </tr>
+      <% end %>
+    </table>
+  </div> <!-- .container -->
+  <%= render "partials/short_footer" %>
+<% else # The user hasn't logged in yet %>
+  <script>
+    window.location.href = "/Manage";
+  </script>
+  <h4 class="shoo-message">You shouldn't be here. Please sign in first!</h4>
+<% end %>
