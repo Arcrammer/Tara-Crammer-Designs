@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get '500' => 'problems#_500'
   
   post 'Contact' => 'contact#send_message'
+  post 'Manage/Create' => 'manage#create'
   
   controller :manage do
     get 'Manage' => :index

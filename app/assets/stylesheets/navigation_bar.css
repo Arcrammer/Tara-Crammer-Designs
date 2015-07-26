@@ -89,3 +89,31 @@ nav li:nth-child(5):hover {
 nav li:nth-child(6):hover {
   background-image: url("NavigationLinkBackgrounds/Teal.png");
 }
+
+/* Media Queries */
+@media only screen
+  and (max-width: 768px) {
+    /* 768px and thinner */
+    
+    /* Pancake Button */
+    #pancakes {
+      width: 50px;
+    }
+    
+    /* Stack Navgation List Elements */
+    nav li {
+      clear: both;
+      margin: 0 !important;
+      margin-left: 25% !important;
+      width: 50% !important;
+    }
+    
+    nav li:first-of-type {
+      margin-top: 7.5% !important;
+    }
+    
+    nav li a {
+      font-size: 1.75em;
+      margin: 6.5% auto;
+    }
+  }
