@@ -16,9 +16,12 @@ class ManageController < ApplicationController
       end
     end
   end
-  def bye
+  def delete
     @posts = BlogPost.all
     render("delete") # Show 'delete.html.erb'
+  end
+  def bye
+    @post = BlogPost.find(params[:id])
   end
   def create
     logger.debug 'BEGIN'

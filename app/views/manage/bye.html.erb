@@ -4,9 +4,7 @@
   <%= render "partials/manage_navigation_bar" %>
   <h1>Delete</h1>
   <div class="container">
-    <% @posts.each do |post| %>
-      <a href="/Manage/Bye/<%= post.id %>">Delete</a>
-    <% end %>
+    Do you want to delete post #<%= @post.id %>?
   </div> <!-- .container -->
   <%= render "partials/short_footer" %>
 <% else # The user hasn't logged in yet %>

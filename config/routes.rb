@@ -11,15 +11,20 @@ Rails.application.routes.draw do
   get 'Posts/:id' => 'posts#with_id'
   get 'Contact' => 'contact#index'
   get 'Contacted' => 'contact#contacted'
-  get 'Manage' => 'manage#index'
-  get 'Manage/Create' => 'manage#create'
-  get 'Manage/Delete/:id' => 'manage#delete'
   get '404' => 'problems#_404'
   get '422' => 'problems#_422'
   get '500' => 'problems#_500'
   
   post 'Contact' => 'contact#send_message'
-  post 'Manage/Logout' => 'manage#logout'
+  
+  controller :manage do
+    get 'Manage' => :index
+    get 'Manage/Create' => :create
+    get 'Manage/Delete' => :delete
+    get 'Manage/Bye/:id' => :bye
+    post 'Manage' => :index
+    post 'Manage/Logout' => :logout
+  end
   
   # Problem pages
   match '/404', to: 'problems#_404', via: :all

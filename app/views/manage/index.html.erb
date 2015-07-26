@@ -3,7 +3,7 @@
   <% content_for :title, "Tara Crammer Designs / Manage" %>
   <div class="manage-home-container">
     <a href="/Manage/Create"><button class="btn btn-pink">New Post</button></a>
-    <a href="/Manage/Bye"><button class="btn btn-pink">Delete Posts</button></a><br />
+    <a href="/Manage/Delete"><button class="btn btn-pink">Delete Posts</button></a><br />
     <%= button_to("Logout", {:controller => 'manage', :action => 'logout'}, {:class => 'btn btn-pink'}) %>
   </div> <!-- .manage-home-container -->
 <% else %>
