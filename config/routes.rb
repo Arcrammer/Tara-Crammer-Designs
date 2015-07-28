@@ -23,6 +23,7 @@ Rails.application.routes.draw do
     get 'Manage/Create' => :create
     get 'Manage/Delete' => :delete
     get 'Manage/Bye/:id' => :bye
+    get 'Manage/Logout' => :logout
     post 'Manage' => :index
     post 'Manage/Logout' => :logout
   end

@@ -134,6 +134,18 @@ input, textarea {
 }
 
 .manage-home-container .btn-pink {
+  height: 75px;
   margin: 2.5% auto !important;
-  width: 25% !important;
+  width: 250px !important;
 }
+
+/* Media Queries */
+@media only screen
+  and (max-width: 640px) {
+    /* 640px and thinner */
+    
+    /* Manage Buttons */
+    .manage-home-container {
+      margin-top: 40%;
+    }
+  }
