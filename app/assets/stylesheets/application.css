@@ -38,6 +38,14 @@ h4 {
   color: #4c4c4c;
 }
 
+p.themed {
+  color: rgb(90, 90, 90);
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0.25px;
+  line-height: 200%;
+}
+
 /* Structure */
 section {
   border-top: 5px solid #61d7df;

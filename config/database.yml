@@ -24,7 +24,7 @@ development:
   # MacBook Pro; Run on the development machine
   database: TaraCrammerDesigns_Development
   username: alexander
-  password: kt8xZ35Kx8fkd8G
+  password: AXnR4xpyE5kWMew6tR
   host: localhost
 
 test:
@@ -33,6 +33,7 @@ test:
   database: TaraCrammerDesigns_Test
   username: alexander
   password: AXnR4xpyE5kWMew6tR
+  host: localhost
 
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
