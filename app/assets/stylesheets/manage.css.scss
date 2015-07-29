@@ -136,7 +136,35 @@ input, textarea {
 .manage-home-container .btn-pink {
   height: 75px;
   margin: 2.5% auto !important;
-  width: 250px !important;
+  width: 275px !important;
+}
+
+/* Deletion Table */
+table {
+  width: 100%;
+}
+
+table tr:first-of-type {
+  background-color: rgba(255,255,255,0.8);
+}
+
+table tr {
+  background-color: rgba(255,255,255,0.95);
+  border: 3px solid rgb(224,224,224);
+}
+
+table td {
+  width: 10px;
+}
+
+table td {
+  border: 2px solid rgba(224, 224, 224, 0.75);
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  padding: 15px;
+  line-height: 150%;
+  text-align: center;
+  vertical-align: middle;
+  width: 10%;
 }
 
 /* Media Queries */

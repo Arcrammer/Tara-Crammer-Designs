@@ -17,7 +17,10 @@ class ManageController < ApplicationController
     end
   end
   def delete
-    @posts = BlogPost.all
+    @latest_posts = BlogPost.paginate({
+      :page => params[:page],
+      :per_page => 30
+      }).order('created_at DESC') # The default is 5; Using the 'will_paginate' gem
     render("delete") # Show 'delete.html.erb'
   end
   def bye
