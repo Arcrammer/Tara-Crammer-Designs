@@ -229,3 +229,14 @@ footer.extended img[alt="HoA-Logo.png"] {
        url('Jaapokki-Regular.ttf') format('truetype'),
        url('Jaapokki-Regular.svg') format('svg');
 }
+
+/* Media Queries */
+@media only screen
+  and (max-width: 768px) {
+    /* 768px and thinner */
+    
+    /* Structure */
+    .container {
+      width: 100%;
+    }
+  }

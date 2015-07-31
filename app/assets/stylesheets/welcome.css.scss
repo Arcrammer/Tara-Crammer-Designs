@@ -119,3 +119,52 @@ button.teal:active {
        url('Darleston.ttf') format('truetype'),
        url('Darleston.svg') format('svg');
 }
+
+/* Media Queries */
+@media only screen
+  and (max-width: 768px) {
+    /* 768px and thinner */
+    
+    /* Content */
+    .container h4 {
+      margin-left: 10%;
+      width: 85%;
+    }
+    
+    #greeting-tron {
+      padding: 15% 0;
+    }
+    
+    #interior-tron h4 {
+      font-size: 2.25em;
+      line-height: 200%;
+    }
+    
+    #event-tron h4 {
+      line-height: 125%;
+      margin-left: 6.5%;
+    }
+    
+    #question-tron h4 {
+      font-size: 3em;
+    }
+    
+    #question-tron .container {
+      padding: 15% 0;
+    }
+    
+    .container button {
+      font-size: 0.8em;
+      padding: 5% 6.5%;
+    }
+    
+    p {
+      font-size: 1.15em;
+      width: 85%;
+    }
+    
+    /* Footer */
+    footer {
+      padding: 5% 0;
+    }
+  }

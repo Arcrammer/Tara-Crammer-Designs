@@ -34,9 +34,17 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# Server
 gem 'puma'
+
+# Rendering posts by element
 gem 'nokogiri'
+
+# Pagination
 gem 'will_paginate', '~> 3.0.6'
+
+# Uploads, image resizing
+gem 'paperclip', '~> 4.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
