@@ -16,16 +16,6 @@ class ManageController < ApplicationController
       end
     end
   end
-  def delete
-    @latest_posts = BlogPost.paginate({
-      :page => params[:page],
-      :per_page => 30
-      }).order('created_at DESC') # The default is 5; Using the 'will_paginate' gem
-    render("delete") # Show 'delete.html.erb'
-  end
-  def bye
-    @post = BlogPost.find(params[:id])
-  end
   def create
     logger.debug 'BEGIN'
     post_buffer = params[:blog_post]
@@ -57,6 +47,19 @@ class ManageController < ApplicationController
       # The title is empty
     end
     logger.debug 'END'
+  end
+  def delete
+    @latest_posts = BlogPost.paginate({
+      :page => params[:page],
+      :per_page => 30
+      }).order('created_at DESC') # The default is 5; Using the 'will_paginate' gem
+    render("delete") # Show 'delete.html.erb'
+  end
+  def destroy_post
+    if session[:authenticated_user] != nil
+      BlogPost.find(params[:id]).delete
+      redirect_to("/Manage/Delete")
+    end
   end
   def logout
     session.destroy
