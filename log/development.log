@@ -66127,3 +66127,557 @@ Started GET "/assets/PortfolioBackgrounds/Green.png" for 71.76.17.180 at 2015-08
 
 
 Started GET "/assets/PortfolioBackgrounds/Blue.png" for 71.76.17.180 at 2015-08-01 14:57:13 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (37.6ms)
+  Rendered partials/_short_footer.erb (0.4ms)
+  Rendered welcome/index.erb within layouts/application (40.9ms)
+Completed 200 OK in 137ms (Views: 136.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:07:29 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:07:31 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.17.180 at 2015-08-01 15:07:32 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.17.180 at 2015-08-01 15:07:33 -0400
+
+
+Started GET "/favicon.ico" for 71.76.17.180 at 2015-08-01 15:07:38 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  passenger (5.0.14) lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.14) lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  passenger (5.0.14) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.1ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 71.76.17.180 at 2015-08-01 15:07:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  passenger (5.0.14) lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.14) lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  passenger (5.0.14) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.9ms)
+
+
+Started GET "/apple-touch-icon.png" for 71.76.17.180 at 2015-08-01 15:07:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  passenger (5.0.14) lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.14) lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  passenger (5.0.14) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.1ms)
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (24.6ms)
+  Rendered partials/_short_footer.erb (0.4ms)
+  Rendered welcome/index.erb within layouts/application (27.4ms)
+Completed 200 OK in 134ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:19:16 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+
+Started GET "/favicon.ico" for 71.76.17.180 at 2015-08-01 15:19:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  passenger (5.0.14) lib/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  passenger (5.0.14) lib/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  passenger (5.0.14) lib/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  passenger (5.0.14) lib/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/" for 67.215.253.194 at 2015-08-01 15:19:22 -0400
+Processing by WelcomeController#index as */*
+  Rendered partials/_navigation_bar.erb (21.6ms)
+  Rendered partials/_short_footer.erb (1.0ms)
+  Rendered welcome/index.erb within layouts/application (37.4ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 67.215.253.194 at 2015-08-01 15:19:53 -0400
+Processing by WelcomeController#index as */*
+  Rendered partials/_navigation_bar.erb (21.8ms)
+  Rendered partials/_short_footer.erb (0.4ms)
+  Rendered welcome/index.erb within layouts/application (34.5ms)
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (24.0ms)
+  Rendered partials/_short_footer.erb (0.5ms)
+  Rendered welcome/index.erb within layouts/application (26.8ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:20:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-01 15:20:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 67.215.253.196 at 2015-08-01 15:20:26 -0400
+Processing by WelcomeController#index as */*
+  Rendered partials/_navigation_bar.erb (16.8ms)
+  Rendered partials/_short_footer.erb (0.3ms)
+  Rendered welcome/index.erb within layouts/application (26.7ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (22.4ms)
+  Rendered partials/_short_footer.erb (0.4ms)
+  Rendered welcome/index.erb within layouts/application (25.3ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:36 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-01 15:20:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:21:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (23.8ms)
+  Rendered partials/_short_footer.erb (0.4ms)
+  Rendered welcome/index.erb within layouts/application (26.4ms)
+Completed 200 OK in 127ms (Views: 126.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-01 15:21:56 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-01 15:22:22 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (25.0ms)
+  Rendered partials/_short_footer.erb (0.5ms)
+  Rendered welcome/index.erb within layouts/application (28.0ms)
+Completed 200 OK in 110ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-01 15:22:23 -0400
