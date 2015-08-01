@@ -169,11 +169,36 @@ table td {
 
 /* Media Queries */
 @media only screen
-  and (max-width: 640px) {
-    /* 640px and thinner */
+  and (max-width: 768px) {
+    /* 768px and thinner */
     
     /* Manage Buttons */
     .manage-home-container {
       margin-top: 40%;
+    }
+    
+    /* Page Titles */
+    h1 {
+      font-size: 3.5em;
+      position: absolute;
+      top: 5%;
+    }
+    
+    /* Content */
+    .container, footer {
+      position: relative;
+      top: 125px;
+    }
+    
+    /* Form */
+    .column {
+      float: left;
+      margin: 5% auto;
+      width: 100%;
+    }
+    
+    /* Footer */
+    footer {
+      margin-top: 5%;
     }
   }

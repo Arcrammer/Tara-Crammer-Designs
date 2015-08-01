@@ -115,5 +115,6 @@ nav li:nth-child(6):hover {
     nav li a {
       font-size: 1.75em;
       margin: 6.5% auto;
+      padding: 7.5% 0;
     }
   }

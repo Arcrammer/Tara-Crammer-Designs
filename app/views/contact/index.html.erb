@@ -1,10 +1,10 @@
 <%= render "partials/navigation_bar" %>
 <h1>Sa<span>y</span> Hi</h1>
-<div class="container">
-  <%= form_tag do %>
-    <%= text_field_tag :from, nil, :placeholder => 'First name' %>
-    <%= text_field_tag :with_address, nil, :placeholder => 'Email address' %>
-    <%= text_area_tag :message, nil, :placeholder => 'Write your message here then press send.' %>
+<div class="container content">
+  <%= form_tag(nil, {:class => 'contact-form'}) do %>
+    <%= text_field_tag :from, nil, {:class => 'first-name-field', :placeholder => 'First name'} %>
+    <%= text_field_tag :with_address, nil, {:class => 'last-name-field', :placeholder => 'Email address'} %>
+    <%= text_area_tag :message, nil, {:class => 'message-field', :placeholder => 'Write your message here then press send.'} %>
     <%= submit_tag "Send" %>
   <% end %>
   <div class="methods-of-contact">
@@ -18,11 +18,11 @@
     </div> <!-- .method-of-contact -->
     <div class="method-of-contact">
       <%= image_tag "Messages.png", :alt => 'Messages.png' %>
-      <p>taracrammer@yahoo.com</p>
+      <p>taracrammer@icloud.com</p>
     </div> <!-- .method-of-contact -->
     <div class="method-of-contact">
       <%= image_tag "Mail.png", :alt => 'Mail.png' %>
-      <p>tcrammer@augustusandcarolina.com</p>
+      <p>taracrammer@yahoo.com</p>
     </div> <!-- .method-of-contact -->
   </div> <!-- .methods-of-contact -->
 </div> <!-- .container -->

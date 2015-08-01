@@ -64,3 +64,17 @@ p, .post-content {
       width: 100%;
     }
   }
+
+@media only screen
+  and (max-width: 512px) {
+    /* 512px and thinner */
+    
+    /* Content */
+    .post h4 {
+      width: 85%;
+    }
+    
+    .post a {
+      width: 35%;
+    }
+  }

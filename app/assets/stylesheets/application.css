@@ -239,4 +239,26 @@ footer.extended img[alt="HoA-Logo.png"] {
     .container {
       width: 100%;
     }
+    
+    /* Footer */
+    footer.extended p {
+      font-size: 1em;
+    }
+    
+    footer.extended p:last-of-type {
+      font-size: 0.85em;
+    }
+    
+    footer img {
+      width: 12.5%;
+    }
+    
+    footer img[alt="Heart.png"] {
+      width: 15px
+    }
+    
+    footer #HoA-Logo {
+      display: block;
+      padding: 6.5% 0;
+    }
   }

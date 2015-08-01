@@ -167,3 +167,98 @@ section.post:last-of-type {
   float: left;
   text-align: center;
 }
+
+/* Media Queries */
+@media only screen
+  and (max-width: 768px) {
+    /* 768px and thinner */
+    
+    /* Content */
+    h1 {
+      font-size: 3.75em;
+      position: absolute;
+      top: 5%;
+    }
+    
+    /* Posts */
+    section.post {
+      margin: 25% auto !important;
+      overflow: visible;
+    }
+    
+    .post .left, .post .right {
+      float: none !important;
+      margin: 0 !important;
+      margin-left: 7.5% !important;
+      overflow: auto !important;
+      width: 85% !important;
+    }
+    
+    .post .right {
+      overflow: hidden !important;
+    }
+    
+    /* Post Content */
+    .post * {
+      float: none !important;
+    }
+    
+    .post header {
+      float: none !important;
+      font-size: 1.35em !important;
+      line-height: 175% !important;
+      margin: 2.5% auto !important;
+      text-align: center !important;
+    }
+    
+    .post p {
+      float: none !important;
+      font-size: 0.9em !important;
+      letter-spacing: 0.5px !important;
+      margin-left: 15% !important;
+      text-align: center !important;
+      width: 70% !important;
+    }
+    
+    .post a {
+      text-align: center !important;
+      width: 25%;
+    }
+    
+    .post img {
+      /* Position is relative */
+      top: 2.5px;
+      padding: 7.5%;
+      width: 80.882352941%;
+    }
+    
+    /* Pagination */
+    .pagination {
+      margin: 35% auto -15% !important;
+    }
+    
+    /* Footer */
+    footer {
+      margin-top: 25%;
+    }
+    
+    footer img:not([alt="Heart.png"]) {
+      width: 7.5% !important;
+    }
+  }
+
+@media only screen
+  and (max-width: 512px) {
+    /* 512px and thinner */
+    
+    /* Posts */
+    #posts {
+      position: relative;
+      top: 50px;
+    }
+    
+    /* Footer */
+    footer img:not([alt="Heart.png"]) {
+      width: 12.5% !important;
+    }
+  }
