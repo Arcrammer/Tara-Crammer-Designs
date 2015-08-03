@@ -43,8 +43,10 @@ gem 'nokogiri'
 # Pagination
 gem 'will_paginate', '~> 3.0.6'
 
-# Uploads, image resizing
-gem 'paperclip', '~> 4.3'
+# Use fastimage_resize to resize images
+gem 'fastimage_resize'
+gem 'RubyInline'
+gem 'fastimage'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
