@@ -1,0 +1,55 @@
+/*  problems.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+/* Structure */
+/* line 12, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+body {
+  background-image: url(/assets/ProblemPageBackground.jpg);
+}
+
+/* line 16, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+.container {
+  text-align: center;
+}
+
+/* Content */
+/* line 21, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+header {
+  color: #262626;
+  font-family: "Jaapokki", sans-serif;
+  font-size: 10em;
+  margin-top: -6.5%;
+  margin-bottom: -5%;
+}
+
+/* line 29, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+p.comment {
+  color: #505050;
+  font-family: "Againts", sans-serif;
+  font-size: 3em;
+  line-height: 175%;
+  letter-spacing: 7px;
+}
+
+/* line 37, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+a {
+  color: #ff2d55;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 46, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/problems.css.scss */
+a:active {
+  text-decoration: underline;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Againts";
+  src: url("Againts.eot");
+  src: url("Againts.eot") format("embedded-opentype"), url("Againts.woff2") format("woff2"), url("Againts.woff") format("woff"), url("Againts.ttf") format("truetype"), url("Againts.svg") format("svg");
+}

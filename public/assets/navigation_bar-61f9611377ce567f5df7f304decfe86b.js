@@ -1,0 +1,1 @@
+$(document).ready(function(){var s=$("nav"),n=$("#pancakes");s.css("display","none"),$("#pancakes").click(function(){"none"==s.css("display")?(s.css("display","block"),n.css("position","fixed")):(s.css("display","none"),n.css("position","absolute"))}),$("nav").click(function(){s.css("display","none"),n.css("position","absolute")})});

@@ -1,0 +1,171 @@
+/*  contact.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+/* Structure */
+/* line 8, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+body {
+  background-image: url(/assets/ContactPageBackground.png);
+}
+
+/* line 12, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Title */
+/* line 18, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+h1 span {
+  letter-spacing: 0px;
+}
+
+/* Contact Form */
+/* line 23, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.contact-form * {
+  background-color: transparent;
+}
+
+/* line 27, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.first-name-field, .last-name-field {
+  border: 0;
+  border-bottom: 3px solid #484747;
+  font-family: "Daniel";
+  font-size: 1.5em;
+  margin: 0 1.75%;
+  padding-top: 1.5%;
+  text-align: center;
+  width: 45%;
+}
+
+/* line 38, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.message-field {
+  border: 0;
+  color: #484747;
+  height: 350px;
+  font-family: "Daniel";
+  font-size: 2em;
+  font-weight: 700;
+  margin: 10% 5%;
+  outline: none;
+  text-align: center;
+  resize: none;
+  width: 90%;
+}
+
+/* line 52, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.contact-form input[type="submit"] {
+  font-family: "Daniel";
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  margin: auto;
+}
+
+/* line 60, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+input[type="submit"]:hover, input[type="submit"]:active {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Methods of Contact */
+/* line 66, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.methods-of-contact {
+  display: inline-block;
+  margin: 7.5% 0;
+  width: 100%;
+}
+
+/* line 72, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.method-of-contact {
+  float: left;
+  margin: 6.5% 5%;
+  width: 40%;
+}
+
+/* line 78, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.method-of-contact img {
+  float: left;
+  vertical-align: middle;
+  width: 25%;
+}
+
+/* line 84, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.method-of-contact p {
+  float: left;
+  font-family: "Courier", monospace;
+  font-size: 0.875em;
+  line-height: 175%;
+  padding: 7.5% 0 0 10%;
+  width: 60%;
+}
+
+/* line 93, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.method-of-contact:first-of-type p {
+  padding: 2.5% 0 0 10%;
+}
+
+/* line 97, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.method-of-contact:nth-child(3) {
+  clear: left;
+}
+
+/* Thanks Message */
+/* line 102, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.thanks.container {
+  margin-bottom: 7.5%;
+}
+
+/* line 106, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+.thanks.themed {
+  display: block;
+  text-align: center;
+  margin: 5% auto;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Daniel";
+  src: url("Daniel.eot");
+  src: url("Daniel.eot") format("embedded-opentype"), url("Daniel.woff2") format("woff2"), url("Daniel.woff") format("woff"), url("Daniel.ttf") format("truetype"), url("Daniel.svg") format("svg");
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* 768px and thinner */
+  /* Content */
+  /* line 129, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+  .content {
+    position: relative;
+    top: 135px;
+    width: 90%;
+  }
+
+  /* line 135, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+  h1 {
+    font-size: 4em;
+    position: absolute;
+    top: 5%;
+  }
+
+  /* Methods of Contact */
+  /* line 142, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+  .method-of-contact {
+    margin: 7.5% auto;
+    width: 100%;
+  }
+
+  /* Thanks Message */
+  /* line 148, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+  .thanks.container {
+    position: relative;
+    top: 150px;
+  }
+
+  /* Footer */
+  /* line 154, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/contact.css.scss */
+  footer {
+    position: relative;
+    top: 175px;
+  }
+}

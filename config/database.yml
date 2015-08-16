@@ -14,6 +14,7 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
+
 default: &default
   adapter: postgresql
   encoding: unicode
@@ -48,5 +49,6 @@ test:
 production:
   <<: *default
   database: d6tj9dj5nu0eh6
+  host: ec2-54-225-134-223.compute-1.amazonaws.com
   username: wvnjewuciqxdvd
   password: MkhZq8r5eC79UH876cB-_ju58A

@@ -1,0 +1,44 @@
+/*  theme.css.scss
+    July 2015
+    Tara Crammer Designs
+    Alexander Rhett Crammer  */
+/* line 10, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron {
+  background: #532f8c;
+  color: white;
+  padding-bottom: 80px;
+}
+/* line 15, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7;
+}
+/* line 18, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron .btn-primary:hover {
+  background: #7646c1;
+}
+/* line 23, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+/* line 29, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+/* line 33, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo {
+  display: block;
+  background: #b01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+/* line 42, /var/www/Tara-Crammer-Designs/app/assets/stylesheets/theme.css.scss */
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
