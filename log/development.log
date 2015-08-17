@@ -6177,3 +6177,1086 @@ Started GET "/assets/ContactPageBackground.png" for 71.76.17.180 at 2015-08-17 1
 
 Started GET "/assets/Daniel.woff2" for 71.76.17.180 at 2015-08-17 11:18:37 -0400
 Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:18:37 -0400
+
+
+Started GET "/Contact" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Map.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Phone.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Messages.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Mail.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Twitter.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/ContactPageBackground.png" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/assets/Daniel.woff2" for 71.76.17.180 at 2015-08-17 11:26:26 -0400
+
+
+Started GET "/Contact" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (18.1ms)
+  Rendered partials/_extended_footer.erb (8.2ms)
+  Rendered contact/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 134ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Map.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Phone.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Messages.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Twitter.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/ContactPageBackground.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Mail.png" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+
+
+Started GET "/assets/Daniel.woff2" for 71.76.17.180 at 2015-08-17 11:26:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started POST "/Contact" for 71.76.17.180 at 2015-08-17 11:27:14 -0400
+Processing by ContactController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2KKCx8FjPS2PyA3iU/OtuId9xyq4UcCz98aZ8L10DVpOZLIqN6dRSyfQiJBKUpFFCw2eAsOHiJy1Z9GhoXSHZQ==", "from"=>"Alexander", "with_address"=>"Arcrammer@me.com", "message"=>"Hello! This is just a test message to make sure everything is working.", "commit"=>"Send"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_message at /var/www/Tara-Crammer-Designs/app/controllers/contact_controller.rb:6)
+  Rendered owner_mailer/send_visitor_message.html.erb within layouts/mailer (0.6ms)
+  Rendered owner_mailer/send_visitor_message.text.erb within layouts/mailer (0.4ms)
+
+OwnerMailer#send_visitor_message: processed outbound mail in 243.1ms
+
+Sent mail to alexander2475914@gmail.com (502.1ms)
+Date: Mon, 17 Aug 2015 11:27:14 -0400
+From: Tara Crammer Designs <alexander2475914@gmail.com>
+To: alexander2475914@gmail.com
+Message-ID: <55d1fd52ef518_2df9235a1cc98760@Server.mail>
+Subject: Message from Alexander at Tara Crammer Designs
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d1fd52ed6c9_2df9235a1cc98640";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55d1fd52ed6c9_2df9235a1cc98640
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Alexander sent this message to you from Tara Crammer Designs:
+
+Hello! This is just a test message to make sure everything is working.
+
+Alexander's email address is 'Arcrammer@me.com'. %>
+
+----==_mimepart_55d1fd52ed6c9_2df9235a1cc98640
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+<!-- Metadata -->
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body style='font-family: "Helvetica Neue", "Helvetica", sans-serif;font-weight: 300;letter-spacing: 0.65px;line-height: 150%'>
+<p>Alexander sent this message to you from Tara Crammer Designs:</p>
+<p style='font-family: "Georgia", serif;font-style: italic;letter-spacing: 0.35px'>"Hello! This is just a test message to make sure everything is working."</p>
+<p>Alexander's email address is 'Arcrammer@me.com'.</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_55d1fd52ed6c9_2df9235a1cc98640--
+
+Completed 500 Internal Server Error in 775ms
+
+Net::SMTPAuthenticationError (530-5.5.1 Authentication Required. Learn more at
+):
+  app/controllers/contact_controller.rb:6:in `send_message'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (10.8ms)
+  Rendered partials/_short_footer.erb (0.6ms)
+  Rendered welcome/index.erb within layouts/application (13.2ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:31:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (10.6ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (11.9ms)
+Completed 200 OK in 62ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:34:01 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (17.4ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (18.8ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:35:04 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (17.8ms)
+  Rendered partials/_short_footer.erb (2.0ms)
+  Rendered welcome/index.erb within layouts/application (24.7ms)
+Completed 200 OK in 116ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:12 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:35:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (17.7ms)
+  Rendered partials/_short_footer.erb (2.0ms)
+  Rendered welcome/index.erb within layouts/application (24.6ms)
+Completed 200 OK in 116ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:35:24 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:37:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (18.1ms)
+  Rendered partials/_short_footer.erb (2.0ms)
+  Rendered welcome/index.erb within layouts/application (25.1ms)
+Completed 200 OK in 117ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:37:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (13.0ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (14.5ms)
+Completed 200 OK in 73ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:38:06 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  Rendered partials/_short_footer.erb (0.3ms)
+  Rendered welcome/index.erb within layouts/application (13.3ms)
+Completed 200 OK in 68ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:08 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.3ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:38:19 -0400
+
+
+Started GET "/Contact" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  Rendered partials/_extended_footer.erb (6.8ms)
+  Rendered contact/index.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 95ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Map.png" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+
+
+Started GET "/Contact" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+Processing by ContactController#index as HTML
+
+
+Started GET "/assets/Phone.png" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+
+
+Started GET "/assets/Messages.png" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+
+
+Started GET "/assets/Mail.png" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:38:24 -0400
+  Rendered partials/_navigation_bar.erb (14.6ms)
+  Rendered partials/_extended_footer.erb (1.4ms)
+  Rendered contact/index.html.erb within layouts/application (20.4ms)
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Twitter.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+Completed 200 OK in 113ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+
+
+Started GET "/assets/Map.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+Started GET "/assets/contact.js?body=1" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+
+Started GET "/assets/Messages.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+Started GET "/assets/SocialMediaIcons/Twitter.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Mail.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Phone.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Daniel.woff2" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/ContactPageBackground.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:38:25 -0400
+
+
+Started POST "/Contact" for 71.76.17.180 at 2015-08-17 11:38:57 -0400
+Processing by ContactController#send_message as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gAAngXk+N/hs0wttVrWbMj5YV689VJyRiuFfv9uCKr4Wxhdsj/pbnsTLjh9PFKfPsigOh0aC1L7IQBfux4KggQ==", "from"=>"Alexander", "with_address"=>"Arcrammer@me.com", "message"=>"Hello! This is just a testing message to make sure everything is working as expected and users can contact the owner.", "commit"=>"Send"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_message at /var/www/Tara-Crammer-Designs/app/controllers/contact_controller.rb:6)
+  Rendered owner_mailer/send_visitor_message.html.erb within layouts/mailer (0.6ms)
+  Rendered owner_mailer/send_visitor_message.text.erb within layouts/mailer (0.4ms)
+
+OwnerMailer#send_visitor_message: processed outbound mail in 208.2ms
+
+Sent mail to alexander2475914@gmail.com (4010.3ms)
+Date: Mon, 17 Aug 2015 11:38:57 -0400
+From: Tara Crammer Designs <alexander2475914@gmail.com>
+To: alexander2475914@gmail.com
+Message-ID: <55d20011c37f4_327327b233c884d@Server.mail>
+Subject: Message from Alexander at Tara Crammer Designs
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_55d20011c20e4_327327b233c8725";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_55d20011c20e4_327327b233c8725
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Alexander sent this message to you from Tara Crammer Designs:
+
+Hello! This is just a testing message to make sure everything is working as expected and users can contact the owner.
+
+Alexander's email address is 'Arcrammer@me.com'. %>
+
+----==_mimepart_55d20011c20e4_327327b233c8725
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+<!-- Metadata -->
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body style='font-family: "Helvetica Neue", "Helvetica", sans-serif;font-weight: 300;letter-spacing: 0.65px;line-height: 150%'>
+<p>Alexander sent this message to you from Tara Crammer Designs:</p>
+<p style='font-family: "Georgia", serif;font-style: italic;letter-spacing: 0.35px'>"Hello! This is just a testing message to make sure everything is working as expected and users can contact the owner."</p>
+<p>Alexander's email address is 'Arcrammer@me.com'.</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_55d20011c20e4_327327b233c8725--
+
+Redirected to http://taracrammerdesigns.ml/Contacted
+Completed 302 Found in 4231ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Contacted" for 71.76.17.180 at 2015-08-17 11:39:01 -0400
+Processing by ContactController#contacted as HTML
+  Rendered partials/_navigation_bar.erb (13.5ms)
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered contact/contacted.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.17.180 at 2015-08-17 11:39:01 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:39:01 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+
+
+
+
+Started GET "/assets/ContactPageBackground.png" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:39:02 -0400
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.0ms)
+  Rendered partials/_short_footer.erb (0.7ms)
+  Rendered welcome/index.erb within layouts/application (13.6ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (10.6ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (11.9ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+Started GET "/assets/SplashGreetingBackground.jpg" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+
+
+
+
+Started GET "/assets/SplashEventBackground.jpg" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+Started GET "/assets/Luna.woff2" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+
+
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+Started GET "/assets/SplashQuestionBackground.jpg" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+
+
+Started GET "/assets/SplashInteriorBackground.jpg" for 71.76.17.180 at 2015-08-17 11:39:05 -0400
+
+
+Started GET "/Portfolio" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.0ms)
+  [1m[35mBlogPost Load (1.0ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (52.5ms)
+Completed 200 OK in 125ms (Views: 118.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/Portfolio" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (13.9ms)
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.9ms)
+  Rendered my_work/index.erb within layouts/application (48.0ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Facebook.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/SocialMediaIcons/Pinterest.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/SocialMediaIcons/LinkedIn.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/Heart.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/HoA-Logo.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/PortfolioBackgrounds/Pink.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/PortfolioBackgrounds/Green.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+
+
+Started GET "/assets/PortfolioMainBackground.jpg" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+Started GET "/assets/PortfolioBackgrounds/Blue.png" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.17.180 at 2015-08-17 11:39:40 -0400
