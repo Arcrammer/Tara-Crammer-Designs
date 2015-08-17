@@ -30,7 +30,7 @@ development:
 
 test:
   <<: *default
-  # Ubuntu Server; Run on the server before deployment to Heroku
+  # Ubuntu Server; Run on the server before deployment
   database: TaraCrammerDesigns_Test
   username: alexander
   password: AXnR4xpyE5kWMew6tR
@@ -48,7 +48,8 @@ test:
 #
 production:
   <<: *default
-  database: d6tj9dj5nu0eh6
-  host: ec2-54-225-134-223.compute-1.amazonaws.com
-  username: wvnjewuciqxdvd
-  password: MkhZq8r5eC79UH876cB-_ju58A
+   # Ubuntu Server; This application is also deployed to Heroku as a back-up
+  database: TaraCrammerDesigns_Production
+  username: alexander
+  password: AXnR4xpyE5kWMew6tR
+  host: localhost

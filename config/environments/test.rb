@@ -31,6 +31,19 @@ Rails.application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
+  # Speaking of mail, let's send mail from Alexander2475914@gmail.com
+  config.action_mailer.raise_delivery_errors = true
+  Rails.application.config.action_mailer.delivery_method = :smtp
+  Rails.application.config.action_mailer.smtp_settings = {
+    :address => 'smtp.gmail.com',
+    :port => 587,
+    :domain => 'gmail.com',
+    :user_name => ENV["GMAIL_ADDRESS"],
+    :password => ENV["GMAIL_PASSWORD"],
+    :authentication => :login,
+    :enable_starttls_auto => true
+  }
+
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
