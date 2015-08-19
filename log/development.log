@@ -9632,3 +9632,4975 @@ Processing by ManageController#delete as HTML
   Rendered partials/_short_footer.erb (0.2ms)
   Rendered manage/delete.html.erb within layouts/application (15.3ms)
 Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (16.1ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "blog_posts"
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (45.1ms)
+Completed 200 OK in 103ms (Views: 101.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:12:47 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:12:48 -0400
+
+
+Started GET "/Portfolio?page=2" for 71.76.23.96 at 2015-08-19 10:12:51 -0400
+Processing by MyWorkController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 5[0m
+  Rendered partials/_extended_footer.erb (0.8ms)
+  Rendered my_work/index.erb within layouts/application (25.2ms)
+Completed 200 OK in 81ms (Views: 79.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/Manage/Create" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+Processing by ManageController#create as HTML
+  Rendered partials/_manage_navigation_bar.erb (11.4ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered manage/create.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/manage.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/manage.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/posts.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/tinymce/tinymce.min.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/tinymce.min.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/themes/modern/theme.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/link/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/searchreplace/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/fullscreen/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/media/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/contextmenu/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/image/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/plugins/paste/plugin.min.js" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/tinymce/skins/lightgray/skin.min.css" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/assets/tinymce/skins/lightgray/fonts/tinymce.woff" for 71.76.23.96 at 2015-08-19 10:13:03 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (40.0ms)
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:13:16 -0400
+
+
+Started POST "/Manage/Create" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+Processing by ManageController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Py6OSlPSw8N/zlkWpHRds51Dl3WxTPd8LGL5+zf5DkKkO6Hw4ceDoo2UveKTVH7JjK5q6gmYNr7k48/D5H1Sag==", "blog_post"=>{"title"=>"Eighth Post", "body"=>"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at nunc sed diam porta lobortis. Quisque quis luctus leo, in porta risus. Aenean vel est sem. Morbi imperdiet malesuada mi, ut porta nisl elementum sed.</p>\r\n<p>&nbsp;</p>", "header_image"=>#<ActionDispatch::Http::UploadedFile:0x000000055cc358 @tempfile=#<Tempfile:/tmp/RackMultipart20150819-14011-4k74uz.jpg>, @original_filename="pnkdydioh.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"blog_post[header_image]\"; filename=\"pnkdydioh.jpg\"\r\nContent-Type: image/jpeg\r\n">, "tags"=>"Eighth, Post"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "blog_posts" ("title", "tags", "file_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Eighth Post"], ["tags", "{Eighth,Post}"], ["file_name", "ptywltpsy"], ["created_at", "2015-08-19 14:14:10.089885"], ["updated_at", "2015-08-19 14:14:10.089885"]]
+  [1m[35m (38.8ms)[0m  COMMIT
+Redirected to http://taracrammerdesigns.ml/Portfolio
+Completed 302 Found in 44ms (ActiveRecord: 39.4ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "blog_posts"
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (40.0ms)
+Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:14:10 -0400
+
+
+Started GET "/Portfolio?page=2" for 71.76.23.96 at 2015-08-19 10:14:17 -0400
+Processing by MyWorkController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 5[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (24.7ms)
+Completed 200 OK in 81ms (Views: 79.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:14:18 -0400
+
+
+Started GET "/Portfolio?page=1" for 71.76.23.96 at 2015-08-19 10:14:22 -0400
+Processing by MyWorkController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.6ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (12.1ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (14.4ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.23.96 at 2015-08-19 10:14:27 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.5ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:15:14 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:15:15 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:15:15 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:15:15 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 117ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:16:04 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:16:04 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:16:04 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:16:11 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:16:11 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:16:11 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.1ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:16:16 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:28 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:16:29 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 111ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:36 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:16:37 -0400
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:16:37 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:16:37 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (12.3ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.7ms)
+Completed 200 OK in 114ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:16:59 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:17:01 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.7ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:17:15 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.8ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:17:23 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:17:24 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:17:24 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:17:24 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (15.8ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (17.3ms)
+Completed 200 OK in 113ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:13 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:18:14 -0400
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:18:14 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:18:14 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (15.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (17.0ms)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:18:30 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:18:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.8ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:18:53 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.8ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:19:32 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:19:33 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:19:33 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:19:33 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.7ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:20:08 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.6ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:23:04 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.3ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:24:26 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.6ms)
+Completed 200 OK in 110ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:24:46 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.2ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:32 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:25:33 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:25:33 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:25:33 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:25:50 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.3ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:25:51 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 113ms (Views: 112.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:25:56 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.0ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:26:05 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (13.2ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/Luna.woff" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/assets/Darleston.woff" for 71.76.23.96 at 2015-08-19 10:26:25 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:26:39 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (45.7ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:26:40 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.7ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:26:40 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:26:40 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.2ms)
+Completed 200 OK in 151ms (Views: 149.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:27:46 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:27:47 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:28:12 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.4ms)
+Completed 200 OK in 151ms (Views: 149.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:28:13 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:28:21 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.6ms)
+Completed 200 OK in 155ms (Views: 153.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:22 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:28:23 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.1ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.7ms)
+Completed 200 OK in 150ms (Views: 148.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:32 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:28:33 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:28:55 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.2ms)
+Completed 200 OK in 151ms (Views: 148.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:28:56 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.7ms)
+Completed 200 OK in 156ms (Views: 153.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:29:11 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.7ms)
+Completed 200 OK in 150ms (Views: 148.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:33 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:34 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:29:34 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:29:46 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.3ms)
+Completed 200 OK in 150ms (Views: 148.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:29:47 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:29:57 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (15.8ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.3ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:29:58 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:00 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:30:01 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:30:13 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (45.1ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:30:14 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (45.1ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:14 -0400
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:14 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:30:14 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:30:14 -0400
+
+
+Started GET "/" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  Rendered partials/_short_footer.erb (0.2ms)
+  Rendered welcome/index.erb within layouts/application (12.7ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/Luna.woff2" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/assets/Darleston.woff2" for 71.76.23.96 at 2015-08-19 10:30:15 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:30:16 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (40.1ms)
+Completed 200 OK in 101ms (Views: 99.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:30:16 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.7ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:17 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:17 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:30:17 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:30:49 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.8ms)
+Completed 200 OK in 158ms (Views: 155.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:30:50 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:31:03 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.1ms)
+Completed 200 OK in 221ms (Views: 219.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:31:04 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.7ms)
+Completed 200 OK in 155ms (Views: 153.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:31:34 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.1ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.6ms)
+Completed 200 OK in 152ms (Views: 149.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:31:42 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.8ms)
+Completed 200 OK in 151ms (Views: 149.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:31:51 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.2ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:31:56 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:31:57 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.6ms)
+Completed 200 OK in 151ms (Views: 149.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:32:29 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.9ms)
+Completed 200 OK in 155ms (Views: 153.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:32:59 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.6ms)
+Completed 200 OK in 150ms (Views: 148.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:33:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:33:11 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.1ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.5ms)
+Completed 200 OK in 151ms (Views: 149.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:10 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.6ms)
+Completed 200 OK in 151ms (Views: 148.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:18 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.0ms)
+Completed 200 OK in 151ms (Views: 148.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:25 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:34 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered my_work/index.erb within layouts/application (43.6ms)
+Completed 200 OK in 161ms (Views: 158.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:35 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.2ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (38.7ms)
+Completed 200 OK in 169ms (Views: 167.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:44 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:34:54 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (18.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (65.9ms)
+Completed 200 OK in 180ms (Views: 178.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:55 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:34:56 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.5ms)
+Completed 200 OK in 150ms (Views: 148.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:35:03 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (40.7ms)
+Completed 200 OK in 154ms (Views: 152.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:35:37 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.6ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:42 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:43 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:35:43 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.3ms)
+Completed 200 OK in 151ms (Views: 148.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:35:50 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:35:57 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.7ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered my_work/index.erb within layouts/application (39.0ms)
+Completed 200 OK in 154ms (Views: 148.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:35:58 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.2ms)
+Completed 200 OK in 99ms (Views: 96.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:36:02 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.4ms)
+Completed 200 OK in 151ms (Views: 149.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:40:35 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:40:47 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.3ms)
+Completed 200 OK in 150ms (Views: 148.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:40:48 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.8ms)
+  Rendered my_work/index.erb within layouts/application (40.1ms)
+Completed 200 OK in 152ms (Views: 150.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:40:56 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:40:57 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (15.8ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.7ms)
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:41:11 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:41:20 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.9ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.8ms)
+Completed 200 OK in 100ms (Views: 98.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:41:21 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.8ms)
+  Rendered my_work/index.erb within layouts/application (42.0ms)
+Completed 200 OK in 101ms (Views: 99.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:42:10 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.8ms)
+  Rendered my_work/index.erb within layouts/application (40.4ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:42:13 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:42:36 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (12.1ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.0ms)
+Completed 200 OK in 108ms (Views: 106.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:36 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:42:37 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:07 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (40.0ms)
+Completed 200 OK in 152ms (Views: 150.4ms | ActiveRecord: 1.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:43:08 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.3ms)
+Completed 200 OK in 151ms (Views: 149.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:13 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:43:14 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:17 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (15.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (43.5ms)
+Completed 200 OK in 155ms (Views: 152.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:43:18 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.3ms)
+Completed 200 OK in 99ms (Views: 97.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:23 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:43:23 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.6ms)
+Completed 200 OK in 152ms (Views: 150.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:43:33 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.4ms)
+Completed 200 OK in 151ms (Views: 149.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:43:36 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:43:39 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (44.2ms)
+Completed 200 OK in 151ms (Views: 149.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:44:45 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:44:46 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:45:12 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.0ms)
+Completed 200 OK in 151ms (Views: 149.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:12 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:45:13 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.7ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:13 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:13 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:45:14 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "blog_posts"[0m
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.8ms)
+Completed 200 OK in 151ms (Views: 149.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:45:29 -0400
+
+
+Started GET "/Portfolio?page=2" for 71.76.23.96 at 2015-08-19 10:45:56 -0400
+Processing by MyWorkController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  [1m[35mBlogPost Load (0.6ms)[0m  SELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 5
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (26.0ms)
+Completed 200 OK in 86ms (Views: 84.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/Portfolio?page=1" for 71.76.23.96 at 2015-08-19 10:45:58 -0400
+Processing by MyWorkController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "blog_posts"
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.9ms)
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.3ms)
+  [1m[36mBlogPost Load (0.5ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "blog_posts"
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.2ms)
+Completed 200 OK in 95ms (Views: 93.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/my_work.css?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:03 -0400
+
+
+Started GET "/assets/my_work.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:04 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:04 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:46:04 -0400
+
+
+Started GET "/Posts/4" for 71.76.23.96 at 2015-08-19 10:46:59 -0400
+Processing by PostsController#with_id as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBlogPost Load (0.4ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = $1[0m  [["id", 4]]
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered posts/with_id.erb within layouts/application (23.6ms)
+Completed 200 OK in 86ms (Views: 83.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/Posts/4" for 71.76.23.96 at 2015-08-19 10:46:59 -0400
+Processing by PostsController#with_id as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBlogPost Load (0.5ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."id" = $1  [["id", 4]]
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_extended_footer.erb (0.9ms)
+  Rendered posts/with_id.erb within layouts/application (19.1ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 71.76.23.96 at 2015-08-19 10:46:59 -0400
+
+
+Started GET "/assets/posts.js?body=1" for 71.76.23.96 at 2015-08-19 10:46:59 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:47:31 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:47:31 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered contact/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:47:31 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:47:32 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:47:32 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:48:04 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff2" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/assets/Daniel.woff2" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+
+Started GET "/favicon.ico" for 71.76.23.96 at 2015-08-19 10:48:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (12.0ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:48:23 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 105ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:48:31 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:39 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:48:40 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:48:40 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:48:56 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered contact/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 101ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:48:57 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:11 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.7ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:18 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 101ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:29 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:30 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:30 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:42 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:43 -0400
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:43 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.9ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 101ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:51 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:49:55 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:49:56 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.6ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:40 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:50:41 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:50:41 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:50:50 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:50 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:50 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:50:51 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered contact/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:51:04 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:51:13 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.8ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:27 -0400
+
+
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:51:28 -0400
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:51:28 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.4ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:51:35 -0400
+
+
+Started GET "/Contact" for 71.76.23.96 at 2015-08-19 10:51:47 -0400
+Processing by ContactController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  Rendered partials/_extended_footer.erb (0.6ms)
+  Rendered contact/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 101ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hover-min.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:47 -0400
+
+
+Started GET "/assets/navigation_bar.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/contact.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+
+
+Started GET "/assets/application.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+Started GET "/assets/jquery.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/navigation_bar.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/contact.css?body=1" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/Daniel.woff" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/assets/Jaapokki-Regular.woff" for 71.76.23.96 at 2015-08-19 10:51:48 -0400
+
+
+Started GET "/Portfolio" for 71.76.23.96 at 2015-08-19 10:52:02 -0400
+Processing by MyWorkController#index as HTML
+  Rendered partials/_navigation_bar.erb (11.5ms)
+  [1m[36mBlogPost Load (0.6ms)[0m  [1mSELECT  "blog_posts".* FROM "blog_posts"  ORDER BY created_at DESC LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "blog_posts"
+  Rendered partials/_extended_footer.erb (0.7ms)
+  Rendered my_work/index.erb within layouts/application (39.8ms)
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/apple-touch-icon-120x120-precomposed.png" for 71.76.23.96 at 2015-08-19 10:52:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-120x120-precomposed.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)
+
+
+Started GET "/apple-touch-icon-120x120.png" for 71.76.23.96 at 2015-08-19 10:52:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-120x120.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/apple-touch-icon.png" for 71.76.23.96 at 2015-08-19 10:52:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.6ms)
+
+
+Started GET "/apple-touch-icon.png" for 71.76.23.96 at 2015-08-19 10:52:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.4ms)
+
+
+Started GET "/favicon.ico" for 71.76.23.96 at 2015-08-19 10:52:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.3ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 71.76.23.96 at 2015-08-19 10:52:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:94:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:149:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:110:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:415:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:111:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/alexander/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)

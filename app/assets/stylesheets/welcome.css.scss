@@ -27,6 +27,10 @@ p {
 }
 
 /* Trons */
+.tron {
+  background-attachment: scroll !important;
+}
+
 #greeting-tron {
   background: image-url("SplashGreetingBackground.jpg") no-repeat fixed center center;
   background-size: cover;

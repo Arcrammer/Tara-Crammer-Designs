@@ -186,6 +186,10 @@ section.post:last-of-type {
       overflow: visible;
     }
     
+    section.post:last-of-type {
+      padding-bottom: 15% !important;
+    }
+    
     .post .left, .post .right {
       float: none !important;
       margin: 0 !important;
@@ -215,9 +219,9 @@ section.post:last-of-type {
       float: none !important;
       font-size: 0.9em !important;
       letter-spacing: 0.5px !important;
-      margin-left: 15% !important;
+      margin-left: 2.5% !important;
       text-align: center !important;
-      width: 70% !important;
+      width: 95% !important;
     }
     
     .post a {
@@ -227,7 +231,7 @@ section.post:last-of-type {
     
     .post img {
       /* Position is relative */
-      top: 2.5px;
+      top: 25px;
       padding: 7.5%;
       width: 80.882352941%;
     }
