@@ -4,13 +4,77 @@
     Alexander Rhett Crammer  */
 
 /* Pancake Button */
-#pancakes {
-  position: absolute;
-  top: 6.5%;
-  right: 3.5%;
-  width: 5%;
-  z-index: 1;
-}
+      /* Pancake Button */
+      .pancake-button {
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+        cursor: pointer;
+        display: block;
+        height: 96px;
+        margin: 0;
+        outline: none;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        top: 6.5%;
+        right: 3.5%;
+        transition: background 0.3s;
+        width: 88px;
+        z-index: 1;
+      }
+      
+      .pancake-button .pancakes {
+        background-color: #4d4d4d;
+        display: block;
+        height: 5px;
+        position: absolute;
+        top: 44px;
+        right: 18px;
+        left: 18px;
+        transition: background 300ms;
+      }
+      
+      .pancake-button .pancakes:before, .pancake-button .pancakes:after {
+        background-color: #4d4d4d;
+        content: "";
+        display: block;
+        height: 5px;
+        position: absolute;
+        left: 0;
+        
+        transition-duration: 300ms;
+        transition-delay: 125ms;
+        
+        width: 100%;
+      }
+      
+      .pancake-button .pancakes:before {
+        top: -20px;
+        
+        transition-property: top, transform;
+      }
+      
+      .pancake-button .pancakes:after {
+        bottom: -20px;
+        
+        transition-property: bottom, transform;
+      }
+      
+      .pancake-button.active .pancakes {
+        background: none;
+        transition-delay: 0s, 0.3s;
+      }
+      
+      .pancake-button.active .pancakes:before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+      
+      .pancake-button.active .pancakes:after {
+        bottom: 0;
+        transform: rotate(-45deg);
+      }
 
 #pancakes span {
   background-color: #4d4d4d;
