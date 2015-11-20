@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+BlogPost.create(title: 'The Very First Post', file_name: 'pcbhpsplz', tags: 'One, Two, Red, Blue')
+15.times do |time|
+  BlogPost.create(title: "Post ##{time}", file_name: 'pcbhpsplz', tags: 'One, Two, Red, Blue')
+end
