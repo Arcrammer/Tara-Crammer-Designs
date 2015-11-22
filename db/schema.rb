@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 20150729010553) do
     t.text     "tags",       default: [],              array: true
   end
 
+  add_index "blog_posts", ["id"], name: "index_blog_posts_on_id", using: :btree
+
   create_table "users", force: :cascade do |t|
     t.string   "username",        limit: 32
     t.string   "password",        limit: 32
@@ -31,5 +33,7 @@ ActiveRecord::Schema.define(version: 20150729010553) do
     t.datetime "updated_at",                 null: false
     t.string   "password_digest"
   end
+
+  add_index "users", ["id"], name: "index_users_on_id", using: :btree
 
 end
