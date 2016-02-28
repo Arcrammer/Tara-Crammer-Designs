@@ -24,15 +24,13 @@
   <!-- Scripts -->
   <script>
     tinymce.init({
-      "file_browser_callback": function (field_name, url, type, win) {
-          win.document.getElementById(field_name).value = 'my browser value'; 
-        },
       "height":"525px",
       "menubar": false,
       "paste_as_text": true,
       "plugins": [
         "link image searchreplace fullscreen media contextmenu paste"
       ],
+      "oninit": "setPlainText",
       "resize":false,
       "selector":"#post-body",
       "statusbar":false,
